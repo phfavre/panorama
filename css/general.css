@@ -9,10 +9,10 @@
   src: url(../ext/font/brandon_grotesque/brandon-grotesque-light.otf);
 }
 
-/*@font-face {
+@font-face {
   font-family: Didot;
   src: url(../ext/font/linotype_didot/DidotLH-RomanOsF.otf);
-}*/
+}
 
 body
 {
