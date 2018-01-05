@@ -26,7 +26,7 @@
             <div class="roompage_room_fare">
               <div class="roompage_room_fare_panel">
                 <div class="roompage_room_fare_from">From</div>
-                <div class="roompage_room_fare_price">CHF 100</div>
+                <div class="roompage_room_fare_price">CHF 55 <img class="room_fare_question_mark" src="img/question_icon.png" width="15px"></div>
                 <div class="roompage_room_fare_pernight">Per Night</div>
               </div>
               <a href="./bookinfo.php?roomname=niesenhorn" type="button" class="btn roompage_moreinfo_button">Book Info</a>

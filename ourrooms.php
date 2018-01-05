@@ -69,7 +69,7 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">From</div>
-                  <div class="ourrooms_room_price_fare">CHF 100</div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room.php?roomname=spitzhorn" type="button" class="btn room_more_info_button">More Info</a>
                   </div>
@@ -99,7 +99,7 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">From</div>
-                  <div class="ourrooms_room_price_fare">CHF 100</div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room.php?roomname=wildhorn" type="button" class="btn room_more_info_button">More Info</a>
                   </div>
@@ -129,7 +129,7 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">From</div>
-                  <div class="ourrooms_room_price_fare">CHF 100</div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room.php?roomname=geltenhorn" type="button" class="btn room_more_info_button">More Info</a>
                   </div>
@@ -159,7 +159,7 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">From</div>
-                  <div class="ourrooms_room_price_fare">CHF 100</div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room.php?roomname=niesenhorn" type="button" class="btn room_more_info_button">More Info</a>
                   </div>
@@ -189,7 +189,7 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">From</div>
-                  <div class="ourrooms_room_price_fare">CHF 100</div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room.php?roomname=wasserngrat" type="button" class="btn room_more_info_button">More Info</a>
                   </div>
@@ -219,7 +219,7 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">From</div>
-                  <div class="ourrooms_room_price_fare">CHF 100</div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room.php?roomname=gride" type="button" class="btn room_more_info_button">More Info</a>
                   </div>
@@ -249,7 +249,7 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">From</div>
-                  <div class="ourrooms_room_price_fare">CHF 100</div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room.php?roomname=rothorn" type="button" class="btn room_more_info_button">More Info</a>
                   </div>

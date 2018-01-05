@@ -77,6 +77,88 @@
         echo("Room not defined");
       }
     ?>
+	
+	<div class="modal fade" id="book_info_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Room Prices</h4>
+          </div>
+          <div class="modal-body">
+            <p>Room fare per person per night</p>
+            <table style="width:100%; font-size: 13px;">
+              <tr>
+                <td>High Season Winter</td>
+                <td>From 20/12 - 31/03</td> 
+                <td>CHF 85</td>
+                <td>breakfast included</td>
+                <td>if 1 person</td>
+              </tr>
+              <tr>
+                <td>High Season Winter</td>
+                <td>From 20/12 - 31/03</td> 
+                <td>CHF 65</td>
+                <td>breakfast included</td>
+                <td>if 2 persons</td>
+              </tr>
+              <tr style="height:10px;"></tr>
+              <tr>
+                <td>High Season Summer</td>
+                <td>From 15/06 - 30/09</td> 
+                <td>CHF 85</td>
+                <td>breakfast included</td>
+                <td>if 1 person</td>
+              </tr>
+              <tr>
+                <td>High Season Summer</td>
+                <td>From 15/06 - 30/09</td> 
+                <td>CHF 65</td>
+                <td>breakfast included</td>
+                <td>if 2 persons</td>
+              </tr>
+              <tr style="height:10px;"></tr>
+              <tr>
+                <td>Low Season Spring</td>
+                <td>From 01/04 - 14/06</td> 
+                <td>CHF 75</td>
+                <td>breakfast included</td>
+                <td>if 1 person</td>
+              </tr>
+              <tr>
+                <td>Low Season Spring</td>
+                <td>From 01/04 - 14/06</td> 
+                <td>CHF 55</td>
+                <td>breakfast included</td>
+                <td>if 2 persons</td>
+              </tr>
+              <tr style="height:10px;"></tr>
+              <tr>
+                <td>Low Season Autumn</td>
+                <td>From 01/10 - 19/12</td> 
+                <td>CHF 75</td>
+                <td>breakfast included</td>
+                <td>if 1 person</td>
+              </tr>
+              <tr>
+                <td>Low Season Autumn</td>
+                <td>From 01/10 - 19/12</td> 
+                <td>CHF 55</td>
+                <td>breakfast included</td>
+                <td>if 2 persons</td>
+              </tr>
+            </table>
+            <br>
+            <p>Additional tax of CHF 2 per person will be added to the prices above.<br> Please contact us for group fare.</p>
+          </div>
+          <div class="modal-footer">
+            <div class="col-md-12">
+              <button type="button" class="btn-modal btn-block btn-ok" data-dismiss="modal">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <?php include("view/contact.php"); ?>
     <?php include("view/footer.php"); ?>

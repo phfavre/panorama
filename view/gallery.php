@@ -43,6 +43,21 @@
                 <div class="diapo_imgs_class_div"><a href="img/eatingroom_03.jpg" data-lightbox="Article gallery photos" data-title="Dinning Hall"><div class="diapo_imgs_class" style="background-image: url(img/eatingroom_03.jpg)" id="gallery_section_img"></div></a></div>
               </div>
               <div class="col-md-4 hiddenPic">
+                <div class="diapo_imgs_class_div"><a href="img/eatingroom_04.jpg" data-lightbox="Article gallery photos" data-title="Dinning Hall"><div class="diapo_imgs_class" style="background-image: url(img/eatingroom_04.jpg)" id="gallery_section_img"></div></a></div>
+              </div>
+              <div class="col-md-4 hiddenPic">
+                <div class="diapo_imgs_class_div"><a href="img/kitchen_01.jpg" data-lightbox="Article gallery photos" data-title="Kitchenette"><div class="diapo_imgs_class" style="background-image: url(img/kitchen_01.jpg)" id="gallery_section_img"></div></a></div>
+              </div>
+              <div class="col-md-4 hiddenPic">
+                <div class="diapo_imgs_class_div"><a href="img/kitchen_02.jpg" data-lightbox="Article gallery photos" data-title="Kitchenette"><div class="diapo_imgs_class" style="background-image: url(img/kitchen_02.jpg)" id="gallery_section_img"></div></a></div>
+              </div>
+              <div class="col-md-4 hiddenPic">
+                <div class="diapo_imgs_class_div"><a href="img/kitchen_03.jpg" data-lightbox="Article gallery photos" data-title="Kitchenette"><div class="diapo_imgs_class" style="background-image: url(img/kitchen_03.jpg)" id="gallery_section_img"></div></a></div>
+              </div>
+              <div class="col-md-4 hiddenPic">
+                <div class="diapo_imgs_class_div"><a href="img/kitchen_04.jpg" data-lightbox="Article gallery photos" data-title="Kitchenette"><div class="diapo_imgs_class" style="background-image: url(img/kitchen_04.jpg)" id="gallery_section_img"></div></a></div>
+              </div>
+              <div class="col-md-4 hiddenPic">
                 <div class="diapo_imgs_class_div"><a href="img/bathroom_01.jpg" data-lightbox="Article gallery photos" data-title="Bathroom"><div class="diapo_imgs_class" style="background-image: url(img/bathroom_01.jpg)" id="gallery_section_img"></div></a></div>
               </div>
               <div class="col-md-4 hiddenPic">
