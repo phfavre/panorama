@@ -101,7 +101,7 @@
                   <div class="ourrooms_room_price_from">From</div>
                   <div class="ourrooms_room_price_fare">CHF 100</div>
                   <div class="ourrooms_room_price_more">
-                    <a href="./room?roomname=wildhorn.php" type="button" class="btn room_more_info_button">More Info</a>
+                    <a href="./room?roomname=wildhorn" type="button" class="btn room_more_info_button">More Info</a>
                   </div>
                 </div>
               </div>
