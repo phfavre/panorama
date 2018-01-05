@@ -1,0 +1,26 @@
+.bookinfo_back
+{
+  border-right: solid 1px #e0e0e0;
+  height: 40px;
+  text-align: center;
+}
+#bookinfo_back_icon
+{
+  margin-top: 5px;
+}
+.bookinfo_title
+{
+  margin-left: 15px;
+}
+.bookinfo_title_div
+{
+  margin-top: 100px;
+  font-size: 28px;
+  padding-bottom: 15px;
+  height: 45px;
+}
+.bookinfo_div
+{
+  font-size: 18px;
+  margin-top: 25px;
+}

@@ -1,0 +1,19 @@
+#about_section
+{
+  background: #FFFFFF;
+  color: #292828;
+  margin-top: 100px;
+}
+
+.about_description_item
+{
+  text-align: center;
+}
+
+.about_description_text
+{
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}

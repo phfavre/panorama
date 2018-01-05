@@ -1,0 +1,45 @@
+#title_section
+{
+  background: #FFFFFF;
+  opacity: 1.00;
+}
+#title_text_div
+{
+  margin-top: 30px;
+}
+#title_text
+{
+  text-align: center;
+  color: #292828;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-top: 100px;
+  opacity: 1.00;
+}
+#sub_title_text
+{
+  text-align: center;
+  color: #292828;
+  margin-top: 10px;
+  font-family: "Didot";
+  font-size: 20px;
+}
+#title_img_div
+{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  height: 300px;
+}
+#title_section .cd-fixed-bg {
+  width: 100%;
+  max-height: 100%;
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center 15%;
+}
+ 
+#title_section .cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/house_balcony.jpg");
+}
