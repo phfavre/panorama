@@ -15,13 +15,13 @@
                 <div class="footer_description_title">Links</div>
                 <div class="footer_description_content">
                   <ul>
-                    <li><a href="./index.php">Home</a></li>
-                    <li><a href="./index.php#about_section" rel="" id="link_anchor_about_ft" class="anchorLink">About</a></li>
-                    <li><a href="./index.php#room_section" rel="" id="link_anchor_room_ft" class="anchorLink">Rooms</a></li>
-                    <li><a href="./index.php#service_section" rel="" id="link_anchor_service_ft" class="anchorLink">Services</a></li>
-                    <li><a href="./index.php#gallery_section" rel="" id="link_anchor_gallery_ft" class="anchorLink">Gallery</a></li>
-                    <li><a href="./index.php#seendo_section" rel="" id="link_anchor_seendo_ft" class="anchorLink">See &amp; Do</a></li>
-                    <li><a href="./index.php#contact_section" rel="" id="link_anchor_contact_ft" class="anchorLink">Contact</a></li>
+                    <li><a href="./index">Home</a></li>
+                    <li><a href="./index#about_section" rel="" id="link_anchor_about_ft" class="anchorLink">About</a></li>
+                    <li><a href="./index#room_section" rel="" id="link_anchor_room_ft" class="anchorLink">Rooms</a></li>
+                    <li><a href="./index#service_section" rel="" id="link_anchor_service_ft" class="anchorLink">Services</a></li>
+                    <li><a href="./index#gallery_section" rel="" id="link_anchor_gallery_ft" class="anchorLink">Gallery</a></li>
+                    <li><a href="./index#seendo_section" rel="" id="link_anchor_seendo_ft" class="anchorLink">See &amp; Do</a></li>
+                    <li><a href="./index#contact_section" rel="" id="link_anchor_contact_ft" class="anchorLink">Contact</a></li>
                   </ul>
                 </div>
               </div>

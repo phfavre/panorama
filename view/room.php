@@ -14,7 +14,7 @@
                     among guests.
                   </div>
                   <div id="room_section_button_div">
-                    <a href="./ourrooms.php" type="button" class="btn" id="room_section_button">Book a Room</a>
+                    <a href="./ourrooms" type="button" class="btn" id="room_section_button">Book a Room</a>
                   </div>
                 </div>
               </div>

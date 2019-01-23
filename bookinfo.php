@@ -49,7 +49,7 @@
         <div class="col-md-14">
           <div class="bookinfo_title_div">
             <div class="row">
-              <div class="col-md-1 bookinfo_back"><a href="./room.php?roomname=<?php echo($_GET["roomname"]); ?>"><img id="bookinfo_back_icon" src="img/left-arrow.png" width="25px"></a></div>
+              <div class="col-md-1 bookinfo_back"><a href="./room?roomname=<?php echo($_GET["roomname"]); ?>"><img id="bookinfo_back_icon" src="img/left-arrow.png" width="25px"></a></div>
               <div class="col-md-5 bookinfo_title">Book Info</div>
             </div>
           </div>

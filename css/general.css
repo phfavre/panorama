@@ -27,6 +27,11 @@ body
   }
 }*/
 
+html
+{
+  scroll-behavior: smooth;
+}
+
 .section_title
 {
   font-size: 20px;

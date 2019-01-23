@@ -44,33 +44,36 @@
   <body>
     <?php include("view/navbar.php"); ?>
     <?php
-      if($_GET["roomname"] == "spitzhorn")
+      if(isset($_GET["roomname"]))
       {
-        include("view/rooms/spitzhorn.php");
-      }
-      else if($_GET["roomname"] == "wildhorn")
-      {
-        include("view/rooms/wildhorn.php");
-      }
-      else if($_GET["roomname"] == "geltenhorn")
-      {
-        include("view/rooms/geltenhorn.php");
-      }
-      else if($_GET["roomname"] == "niesenhorn")
-      {
-        include("view/rooms/niesenhorn.php");
-      }
-      else if($_GET["roomname"] == "wasserngrat")
-      {
-        include("view/rooms/wasserngrat.php");
-      }
-      else if($_GET["roomname"] == "gride")
-      {
-        include("view/rooms/gride.php");
-      }
-      else if($_GET["roomname"] == "rothorn")
-      {
-        include("view/rooms/rothorn.php");
+        if($_GET["roomname"] == "spitzhorn")
+        {
+          include("view/rooms/spitzhorn.php");
+        }
+        else if($_GET["roomname"] == "wildhorn")
+        {
+          include("view/rooms/wildhorn.php");
+        }
+        else if($_GET["roomname"] == "geltenhorn")
+        {
+          include("view/rooms/geltenhorn.php");
+        }
+        else if($_GET["roomname"] == "niesenhorn")
+        {
+          include("view/rooms/niesenhorn.php");
+        }
+        else if($_GET["roomname"] == "wasserngrat")
+        {
+          include("view/rooms/wasserngrat.php");
+        }
+        else if($_GET["roomname"] == "gride")
+        {
+          include("view/rooms/gride.php");
+        }
+        else if($_GET["roomname"] == "rothorn")
+        {
+          include("view/rooms/rothorn.php");
+        }
       }
       else
       {

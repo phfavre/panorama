@@ -3,7 +3,7 @@
     <div class="col-md-14">
       <div class="roompage_title_div">
         <div class="row">
-          <div class="col-md-1 roompage_back"><a href="./ourrooms.php"><img id="roompage_back_icon" src="img/left-arrow.png" width="25px"></a></div>
+          <div class="col-md-1 roompage_back"><a href="./ourrooms"><img id="roompage_back_icon" src="img/left-arrow.png" width="25px"></a></div>
           <div class="col-md-5 roompage_roomname">Wasserngrat</div>
         </div>
       </div>
@@ -29,7 +29,7 @@
                 <div class="roompage_room_fare_price">CHF 55 <img class="room_fare_question_mark" src="img/question_icon.png" width="15px"></div>
                 <div class="roompage_room_fare_pernight">Per Night</div>
               </div>
-              <a href="./bookinfo.php?roomname=wasserngrat" type="button" class="btn roompage_moreinfo_button">Book Info</a>
+              <a href="./bookinfo?roomname=wasserngrat" type="button" class="btn roompage_moreinfo_button">Book Info</a>
             </div>
           </div>
         </div>
