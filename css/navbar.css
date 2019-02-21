@@ -33,6 +33,22 @@ ul.topnav li a {
   padding-top: 30px;
   height: 70px;
 }
+ul.topnav .topnav_lang_li {
+  padding-top: 12px;
+}
+ul.topnav .topnav_lang_link {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 1px #292828;
+  border-radius: 8px;
+  height: auto;
+}
+ul.topnav .topnav_lang_link.lang_active {
+  border: solid 1px white;
+  border-radius: 8px;
+}
 ul.topnav li p {
   display: inline-block;
   text-align: center;

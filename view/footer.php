@@ -1,3 +1,44 @@
+<?php
+  $footBarText = array(
+    "footLinks" => "Links",
+    "footHome" => "Home",
+    "footAbout" => "About", 
+    "footRooms" => "Rooms", 
+    "footServices" => "Services",
+    "footGallery" => "Gallery",
+    "footSeedo" => "See &amp; Do",
+    "footContact" => "Contact"
+  );
+
+  $footLang = 'en-us';
+
+  if(isset($_GET['lang']))
+  {
+    if(strtolower($_GET['lang']) == 'fr-fr')
+    {
+      $footLang = 'fr-fr';
+      $footBarText = array(
+        "footLinks" => "Liens",
+        "footHome" => "Accueil",
+        "footAbout" => "À Propos", 
+        "footRooms" => "Chambres", 
+        "footServices" => "Services",
+        "footGallery" => "Images",
+        "footSeedo" => "À Voir",
+        "footContact" => "Nous Contacter"
+      );
+    }
+    if(strtolower($_GET['lang']) == 'de-de')
+    {
+      $footLang = 'de-de';
+    }
+    if(strtolower($_GET['lang']) == 'da-dk')
+    {
+      $footLang = 'da-dk';
+    }
+  }
+?>
+
 <section id="footer_section">
   <div class="container">
     <div class="col-md-14">
@@ -12,23 +53,55 @@
             </div>
             <div class="col-md-3">
               <div class="footer_description_item">
-                <div class="footer_description_title">Links</div>
+                <div class="footer_description_title">
+                  <?php echo printValueGivenKey($footBarText, 'footLinks', 'Links'); ?>
+                </div>
                 <div class="footer_description_content">
                   <ul>
-                    <li><a href="./index">Home</a></li>
-                    <li><a href="./index#about_section" rel="" id="link_anchor_about_ft" class="anchorLink">About</a></li>
-                    <li><a href="./index#room_section" rel="" id="link_anchor_room_ft" class="anchorLink">Rooms</a></li>
-                    <li><a href="./index#service_section" rel="" id="link_anchor_service_ft" class="anchorLink">Services</a></li>
-                    <li><a href="./index#gallery_section" rel="" id="link_anchor_gallery_ft" class="anchorLink">Gallery</a></li>
-                    <li><a href="./index#seendo_section" rel="" id="link_anchor_seendo_ft" class="anchorLink">See &amp; Do</a></li>
-                    <li><a href="./index#contact_section" rel="" id="link_anchor_contact_ft" class="anchorLink">Contact</a></li>
+                    <li>
+                      <a href="./index?lang=<?php echo $footLang; ?>">
+                        <?php echo printValueGivenKey($footBarText, 'footHome', 'Home'); ?>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./index?lang=<?php echo $footLang; ?>#about_section" rel="" id="link_anchor_about_ft" class="anchorLink">
+                        <?php echo printValueGivenKey($footBarText, 'footAbout', 'About'); ?>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./index?lang=<?php echo $footLang; ?>#room_section" rel="" id="link_anchor_room_ft" class="anchorLink">
+                        <?php echo printValueGivenKey($footBarText, 'footRooms', 'Rooms'); ?>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./index?lang=<?php echo $footLang; ?>#service_section" rel="" id="link_anchor_service_ft" class="anchorLink">
+                        <?php echo printValueGivenKey($footBarText, 'footServices', 'Services'); ?>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./index?lang=<?php echo $footLang; ?>#gallery_section" rel="" id="link_anchor_gallery_ft" class="anchorLink">
+                        <?php echo printValueGivenKey($footBarText, 'footGallery', 'Gallery'); ?>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./index?lang=<?php echo $footLang; ?>#seendo_section" rel="" id="link_anchor_seendo_ft" class="anchorLink">
+                        <?php echo printValueGivenKey($footBarText, 'footSeedo', 'See &amp; Do'); ?>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./index?lang=<?php echo $footLang; ?>#contact_section" rel="" id="link_anchor_contact_ft" class="anchorLink">
+                        <?php echo printValueGivenKey($footBarText, 'footContact', 'Contact'); ?>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="footer_description_item">
-                <div class="footer_description_title">About</div>
+                <div class="footer_description_title">
+                  <?php echo printValueGivenKey($footBarText, 'footAbout', 'About'); ?>
+                </div>
                 <div class="footer_description_content">
                   <ul>
                     <li><a href="mailto:info@panorama-lauenen.ch">info@panorama-lauenen.ch</a></li>
@@ -66,7 +139,7 @@
   <div class="container">
     <div class="col-md-14">
       <div id="footer_footer_text">
-        &copy; 2017 by Panorama Lauenen
+        &copy; 2019 by Panorama Lauenen
       </div>
     </div>
   </div>

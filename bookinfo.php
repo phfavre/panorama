@@ -1,6 +1,54 @@
+
+<?php include("./helper.php"); ?>
+
+<?php
+  $bookInfoText = array(
+    "bookInfoPageTitle" => "Booking - B&amp;B Panorama Lauenen",
+    "bookInfoTitle" => "Book Info", 
+    "bookInfoIntro" => "If you would like to book a room you may follow one of the options below:", 
+    "bookInfoOption1" => "Contact us directly using the contact information below. We would be glad to take your order!", 
+    "bookInfoOption2" => "Book through Booking.com", 
+    "bookInfoOption3" => "Book through Tripadvisor.com", 
+    "bookInfoOption4" => "Find us on Google", 
+    "bookInfoHere" => "here", 
+    "bookInfoLookingForward" => "We are looking forward to welcoming you!"
+  );
+
+  $bookInfoLang = 'en-us';
+
+  if(isset($_GET['lang']))
+  {
+    if(strtolower($_GET['lang']) == 'fr-fr')
+    {
+      $bookInfoLang = 'fr-fr';
+      $bookInfoText = array(
+        "bookInfoPageTitle" => "Réservation - B&amp;B Panorama Lauenen",
+        "bookInfoTitle" => "Réservation", 
+        "bookInfoIntro" => "Pour réserver une chambre, veuillez suivre une des options ci-dessous:", 
+        "bookInfoOption1" => "Contactez nous directement en utilisant les informations de contact ci-dessous. Nous serons ravis de prendre votre réservation!", 
+        "bookInfoOption2" => "Réservez sur Booking.com", 
+        "bookInfoOption3" => "Réservez sur Tripadvisor.com", 
+        "bookInfoOption4" => "Trouvez nous sur Google", 
+        "bookInfoHere" => "ici", 
+        "bookInfoLookingForward" => "Nous nous réjouissons de vous accueillir!"
+      );
+    }
+    if(strtolower($_GET['lang']) == 'de-de')
+    {
+      $bookInfoLang = 'de-de';
+    }
+    if(strtolower($_GET['lang']) == 'da-dk')
+    {
+      $bookInfoLang = 'da-dk';
+    }
+  }
+?>
+
 <html>
   <head>
-    <title>Rooms - B&amp;B Panorama Lauenen</title>
+    <title>
+      <?php echo printValueGivenKey($bookInfoText, 'bookInfoPageTitle', 'Booking - B&amp;B Panorama Lauenen'); ?>
+    </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
@@ -49,19 +97,31 @@
         <div class="col-md-14">
           <div class="bookinfo_title_div">
             <div class="row">
-              <div class="col-md-1 bookinfo_back"><a href="./room?roomname=<?php echo($_GET["roomname"]); ?>"><img id="bookinfo_back_icon" src="img/left-arrow.png" width="25px"></a></div>
-              <div class="col-md-5 bookinfo_title">Book Info</div>
+              <div class="col-md-1 bookinfo_back"><a href="./room?roomname=<?php echo($_GET["roomname"]); ?>&lang=<?php echo $bookInfoLang; ?>"><img id="bookinfo_back_icon" src="img/left-arrow.png" width="25px"></a></div>
+              <div class="col-md-5 bookinfo_title">
+                <?php echo printValueGivenKey($bookInfoText, 'bookInfoTitle', 'Book Info'); ?>
+              </div>
             </div>
           </div>
           <div class="bookinfo_div">
-            If you would like to book a room you may follow one of the options below:<br><br>
+            <?php echo printValueGivenKey($bookInfoText, 'bookInfoIntro', 'If you would like to book a room you may follow one of the options below:'); ?>
+            <br><br>
             <ul>
-              <li>Contact us directly using the contact information below. We would be glad to take your order!</li>
-              <li>Book through Booking.com <a target="_blank" href="http://www.booking.com/Share-UJPgf1">here</a></li>
-              <li>Book through Tripadvisor.com <a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g1157721-d3806523-Reviews-Pension_Panorama_B_B-Lauenen_Bernese_Oberland_Canton_of_Bern.html">here</a></li>
-              <li>Find us on Google <a target="_blank" href="https://goo.gl/maps/iLBDQ6hqFH92">here</a></li>
+              <li>
+                <?php echo printValueGivenKey($bookInfoText, 'bookInfoOption1', 'Contact us directly using the contact information below. We would be glad to take your order!'); ?>
+              </li>
+              <li>
+                <?php echo printValueGivenKey($bookInfoText, 'bookInfoOption2', 'Book through Booking.com'); ?>&nbsp;<a target="_blank" href="http://www.booking.com/Share-UJPgf1"><?php echo printValueGivenKey($bookInfoText, 'bookInfoHere', 'here'); ?></a>
+              </li>
+              <li>
+                <?php echo printValueGivenKey($bookInfoText, 'bookInfoOption3', 'Book through Tripadvisor.com'); ?>&nbsp;<a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g1157721-d3806523-Reviews-Pension_Panorama_B_B-Lauenen_Bernese_Oberland_Canton_of_Bern.html"><?php echo printValueGivenKey($bookInfoText, 'bookInfoHere', 'here'); ?></a>
+              </li>
+              <li>
+                <?php echo printValueGivenKey($bookInfoText, 'bookInfoOption4', 'Find us on Google'); ?>&nbsp;<a target="_blank" href="https://goo.gl/maps/iLBDQ6hqFH92"><?php echo printValueGivenKey($bookInfoText, 'bookInfoHere', 'here'); ?></a>
+              </li>
             </ul>
-            <br>We are looking forward to welcoming you!
+            <br>
+            <?php echo printValueGivenKey($bookInfoText, 'bookInfoLookingForward', 'We are looking forward to welcoming you!'); ?>
           </div>
         </div>
       </div>

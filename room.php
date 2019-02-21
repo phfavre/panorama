@@ -1,6 +1,62 @@
+
+<?php include("./helper.php"); ?>
+
+<?php
+  $roomText = array(
+    "roomPageTitle" => "Rooms - B&amp;B Panorama Lauenen",
+    "roomRoomPrices" => "Room Prices", 
+    "roomRoomFareExplanation" => "Room fare per person per night", 
+    "roomHighSeasonWinter" => "High Season Winter", 
+    "roomHighSeasonSummer" => "High Season Summer", 
+    "roomLowSeasonSpring" => "Low Season Spring", 
+    "roomLowSeasonAutumn" => "Low Season Autumn", 
+    "roomDateFrom" => "From", 
+    "roomBreakfastIncl" => "breakfast included", 
+    "roomIfOnePerson" => "if 1 person", 
+    "roomIfTwoPerson" => "if 2 persons", 
+    "roomAdditionalTax" => "Additional tax of CHF 2 per person will be added to the prices above.", 
+    "roomContactUs" => "Please contact us for group fare."
+  );
+
+  $roomLang = 'en-us';
+
+  if(isset($_GET['lang']))
+  {
+    if(strtolower($_GET['lang']) == 'fr-fr')
+    {
+      $roomLang = 'fr-fr';
+      $roomText = array(
+        "roomPageTitle" => "Chambres - B&amp;B Panorama Lauenen",
+        "roomRoomPrices" => "Prix des chambres", 
+        "roomRoomFareExplanation" => "Prix par personne et par nuit", 
+        "roomHighSeasonWinter" => "Haute Saison Hiver", 
+        "roomHighSeasonSummer" => "Haute Saison Été", 
+        "roomLowSeasonSpring" => "Basse Saison Printemps", 
+        "roomLowSeasonAutumn" => "Basse Saison Automne", 
+        "roomDateFrom" => "Du", 
+        "roomBreakfastIncl" => "petit déjeuner inclus", 
+        "roomIfOnePerson" => "si 1 personne", 
+        "roomIfTwoPerson" => "si 2 personnes", 
+        "roomAdditionalTax" => "Une taxe supplémentaire de CHF 2 par personne sera ajoutée au prix ci-dessus.", 
+        "roomContactUs" => "Veuillez nous contacter concernant les prix de groupe."
+      );
+    }
+    if(strtolower($_GET['lang']) == 'de-de')
+    {
+      $roomLang = 'de-de';
+    }
+    if(strtolower($_GET['lang']) == 'da-dk')
+    {
+      $roomLang = 'da-dk';
+    }
+  }
+?>
+
 <html>
   <head>
-    <title>Rooms - B&amp;B Panorama Lauenen</title>
+    <title>
+      <?php echo printValueGivenKey($roomText, 'roomPageTitle', 'Rooms - B&amp;B Panorama Lauenen'); ?>
+    </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
@@ -46,33 +102,18 @@
     <?php
       if(isset($_GET["roomname"]))
       {
-        if($_GET["roomname"] == "spitzhorn")
+        $roomName = strtolower($_GET["roomname"]);
+        $roomNameSet = array(
+          "spitzhorn", "wildhorn", "geltenhorn", 
+          "niesenhorn", "wasserngrat", "gride", "rothorn"
+        );
+        if(in_array($roomName, $roomNameSet))
         {
-          include("view/rooms/spitzhorn.php");
+          include("view/roomview.php");
         }
-        else if($_GET["roomname"] == "wildhorn")
+        else
         {
-          include("view/rooms/wildhorn.php");
-        }
-        else if($_GET["roomname"] == "geltenhorn")
-        {
-          include("view/rooms/geltenhorn.php");
-        }
-        else if($_GET["roomname"] == "niesenhorn")
-        {
-          include("view/rooms/niesenhorn.php");
-        }
-        else if($_GET["roomname"] == "wasserngrat")
-        {
-          include("view/rooms/wasserngrat.php");
-        }
-        else if($_GET["roomname"] == "gride")
-        {
-          include("view/rooms/gride.php");
-        }
-        else if($_GET["roomname"] == "rothorn")
-        {
-          include("view/rooms/rothorn.php");
+          echo("Room not defined");
         }
       }
       else
@@ -86,73 +127,145 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h4 class="modal-title" id="myModalLabel">Room Prices</h4>
+            <h4 class="modal-title" id="myModalLabel">
+              <?php echo printValueGivenKey($roomText, 'roomRoomPrices', 'Room Prices'); ?>
+            </h4>
           </div>
           <div class="modal-body">
-            <p>Room fare per person per night</p>
+            <p>
+              <?php echo printValueGivenKey($roomText, 'roomRoomFareExplanation', 'Room fare per person per night'); ?>
+            </p>
             <table style="width:100%; font-size: 13px;">
               <tr>
-                <td>High Season Winter</td>
-                <td>From 20/12 - 31/03</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomHighSeasonWinter', 'High Season Winter'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 20/12 - 31/03
+                </td>
                 <td>CHF 85</td>
-                <td>breakfast included</td>
-                <td>if 1 person</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfOnePerson', 'if 1 person'); ?>
+                </td>
               </tr>
               <tr>
-                <td>High Season Winter</td>
-                <td>From 20/12 - 31/03</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomHighSeasonWinter', 'High Season Winter'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 20/12 - 31/03
+                </td> 
                 <td>CHF 65</td>
-                <td>breakfast included</td>
-                <td>if 2 persons</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfTwoPerson', 'if 2 persons'); ?>
+                </td>
               </tr>
               <tr style="height:10px;"></tr>
               <tr>
-                <td>High Season Summer</td>
-                <td>From 15/06 - 30/09</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomHighSeasonSummer', 'High Season Summer'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 15/06 - 30/09
+                </td> 
                 <td>CHF 85</td>
-                <td>breakfast included</td>
-                <td>if 1 person</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfOnePerson', 'if 1 person'); ?>
+                </td>
               </tr>
               <tr>
-                <td>High Season Summer</td>
-                <td>From 15/06 - 30/09</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomHighSeasonSummer', 'High Season Summer'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 15/06 - 30/09
+                </td> 
                 <td>CHF 65</td>
-                <td>breakfast included</td>
-                <td>if 2 persons</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfTwoPerson', 'if 2 persons'); ?>
+                </td>
               </tr>
               <tr style="height:10px;"></tr>
               <tr>
-                <td>Low Season Spring</td>
-                <td>From 01/04 - 14/06</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomLowSeasonSpring', 'Low Season Spring'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/04 - 14/06
+                </td> 
                 <td>CHF 75</td>
-                <td>breakfast included</td>
-                <td>if 1 person</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfOnePerson', 'if 1 person'); ?>
+                </td>
               </tr>
               <tr>
-                <td>Low Season Spring</td>
-                <td>From 01/04 - 14/06</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomLowSeasonSpring', 'Low Season Spring'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/04 - 14/06
+                </td> 
                 <td>CHF 55</td>
-                <td>breakfast included</td>
-                <td>if 2 persons</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfTwoPerson', 'if 2 persons'); ?>
+                </td>
               </tr>
               <tr style="height:10px;"></tr>
               <tr>
-                <td>Low Season Autumn</td>
-                <td>From 01/10 - 19/12</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomLowSeasonAutumn', 'Low Season Autumn'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/10 - 19/12
+                </td> 
                 <td>CHF 75</td>
-                <td>breakfast included</td>
-                <td>if 1 person</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfOnePerson', 'if 1 person'); ?>
+                </td>
               </tr>
               <tr>
-                <td>Low Season Autumn</td>
-                <td>From 01/10 - 19/12</td> 
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomLowSeasonAutumn', 'Low Season Autumn'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/10 - 19/12
+                </td> 
                 <td>CHF 55</td>
-                <td>breakfast included</td>
-                <td>if 2 persons</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfTwoPerson', 'if 2 persons'); ?>
+                </td>
               </tr>
             </table>
             <br>
-            <p>Additional tax of CHF 2 per person will be added to the prices above.<br> Please contact us for group fare.</p>
+            <p>
+              <?php echo printValueGivenKey($roomText, 'roomAdditionalTax', 'Additional tax of CHF 2 per person will be added to the prices above.'); ?>
+              <br> 
+              <?php echo printValueGivenKey($roomText, 'roomContactUs', 'Please contact us for group fare.'); ?>
+            </p>
           </div>
           <div class="modal-footer">
             <div class="col-md-12">

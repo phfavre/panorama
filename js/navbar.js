@@ -10,3 +10,11 @@ function myNavbar()
     x.className = "topnav";
   }
 }
+
+/*$('.topnav_lang_link').on('click', function() {
+  let currEl = $(this);
+  $('.topnav_lang_link').each(function() {
+    $(this).removeClass('activeLang');
+  });
+  currEl.addClass('activeLang');
+});*/

@@ -1,3 +1,27 @@
+<?php
+  $contactSectionText = array(
+    "contactSectionContactTitle" => "Contact Us"
+  );
+
+  if(isset($_GET['lang']))
+  {
+    if(strtolower($_GET['lang']) == 'fr-fr')
+    {
+      $contactSectionText = array(
+        "contactSectionContactTitle" => "Contactez-nous"
+      );
+    }
+    if(strtolower($_GET['lang']) == 'de-de')
+    {
+      
+    }
+    if(strtolower($_GET['lang']) == 'da-dk')
+    {
+      
+    }
+  }
+?>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbwgSVSXNi67Eg7XGOYcpFxUDPFz3XmIg&callback=initialize" async defer></script>
 <script>
   function initialize()
@@ -23,7 +47,9 @@
   <div class="container">
     <div class="col-md-14">
       <div id="contact_section_div">
-        <div class="section_title capLetters" id="contact_title_div">Contact Us</div>
+        <div class="section_title capLetters" id="contact_title_div">
+          <?php echo printValueGivenKey($contactSectionText, 'contactSectionContactTitle', 'Contact Us'); ?>
+        </div>
         <div class="section_content">
           <div class="row">
             <div class="col-md-4">

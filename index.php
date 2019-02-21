@@ -49,6 +49,7 @@
 
   </head>
   <body>
+    <?php include("./helper.php"); ?>
     <?php include("view/navbar.php"); ?>
     <?php include("view/title.php"); ?>
     <?php include("view/about.php"); ?>
