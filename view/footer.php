@@ -139,7 +139,7 @@
   <div class="container">
     <div class="col-md-14">
       <div id="footer_footer_text">
-        &copy; 2019 by Panorama Lauenen
+        &copy; 2020 - Website Designed by <a href="mailto:phf.webcreation@gmail.com">PHF Web Creation</a>
       </div>
     </div>
   </div>
