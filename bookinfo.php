@@ -51,6 +51,17 @@
     if(strtolower($_GET['lang']) == 'da-dk')
     {
       $bookInfoLang = 'da-dk';
+      $bookInfoText = array(
+        "bookInfoPageTitle" => "Reservationer - B&amp;B Panorama Lauenen",
+        "bookInfoTitle" => "Reservationer", 
+        "bookInfoIntro" => "Hvis du vil reservere et værelse, kan du følge en af nedenstående muligheder:", 
+        "bookInfoOption1" => "Kontakt os direkte ved hjælp af nedenstående kontaktoplysninger. Vi tager gerne din bestilling!", 
+        "bookInfoOption2" => "Book gennem Booking.com", 
+        "bookInfoOption3" => "Book gennem Tripadvisor.com", 
+        "bookInfoOption4" => "Find os på Google", 
+        "bookInfoHere" => "her", 
+        "bookInfoLookingForward" => "Vi glæder os til at byde dig velkommen!"
+      );
     }
   }
 ?>

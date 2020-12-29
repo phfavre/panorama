@@ -16,6 +16,12 @@
   $aboutSectionTextDefaultDede .= "Lauenen bietet Ihnen alles, was Sie brauchen, um die Schweizer ";
   $aboutSectionTextDefaultDede .= "Alpen zu genießen. Die Sommerwanderwege und die Winter-Langlaufloipe ";
   $aboutSectionTextDefaultDede .= "sind nur wenige Meter entfernt und Sie werden Ihre Gedanken während der vier Jahreszeiten erfrischen!";
+  
+  $aboutSectionTextDefaultDadk = "Velkommen til vores hjemmeside! Der er intet bedre end en aktiv hvile for dit velbefindende og ";
+  $aboutSectionTextDefaultDadk .= "for dit helbred. Panorama Lauenen Bed and Breakfast tilbyder dig alt hvad du behøver for ";
+  $aboutSectionTextDefaultDadk .= "at nyde de schweiziske alper. Om sommerens vandrestier og vinterens ";
+  $aboutSectionTextDefaultDadk .= "langrendsløb kun få meter væk, vil du opfriske ";
+  $aboutSectionTextDefaultDadk .= "dit sind gennem de fire årstider!";
 
   $aboutSectionText = array(
     "aboutSectionAbout" => "About", 
@@ -40,7 +46,10 @@
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
-      
+      $aboutSectionText = array(
+        "aboutSectionAbout" => "Om os", 
+        "aboutSectionText" => $aboutSectionTextDefaultDadk
+      );
     }
   }
 ?>

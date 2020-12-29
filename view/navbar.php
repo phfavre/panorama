@@ -45,6 +45,16 @@
     if(strtolower($_GET['lang']) == 'da-dk')
     {
       $navLang = 'da-dk';
+      $navBarText = array(
+        "navHome" => "Home",
+        "navAbout" => "Om os", 
+        "navRooms" => "Værelse", 
+        "navServices" => "Tjenester",
+        "navGallery" => "Billeder",
+        "navSeedo" => "Aktiviteter",
+        "navContact" => "Kontakt",
+        "navBookroom" => "Reservere"
+      );
     }
   }
 ?>

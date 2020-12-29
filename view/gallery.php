@@ -34,7 +34,14 @@
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
-      
+      $gallerySectionText = array(
+        "gallerySectionGalleryTitle" => "Billeder", 
+        "gallerySectionVillagePhoto" => "Lauenen By", 
+        "gallerySectionGuestroomPhoto" => "Værelse", 
+        "gallerySectionDiningroomPhoto" => "Spisesal", 
+        "gallerySectionKitchenettePhoto" => "Tekøkken", 
+        "gallerySectionBathroomPhoto" => "Badeværelse"
+      );
     }
   }
 ?>

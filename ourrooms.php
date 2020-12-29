@@ -99,6 +99,33 @@
     if(strtolower($_GET['lang']) == 'da-dk')
     {
       $ourRoomLang = 'da-dk';
+      $ourRoomText = array(
+        "ourRoomPageTitle" => "Værelse - B&amp;B Panorama Lauenen",
+        "ourRoomTitle" => "Vores Værelser", 
+        "ourRoomRoom1Info" => "Værelse med balkon", 
+        "ourRoomRoom1Bed" => "Senge: 2 Enkeltsenge", 
+        "ourRoomRoom1Occupancy" => "Maksimum: 2 Personer", 
+        "ourRoomRoom2Info" => "Værelse med balkon", 
+        "ourRoomRoom2Bed" => "Senge: 2 Enkeltsenge", 
+        "ourRoomRoom2Occupancy" => "Maksimum: 2 Personer", 
+        "ourRoomRoom3Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom3Bed" => "Senge: 2 Enkeltsenge", 
+        "ourRoomRoom3Occupancy" => "Maksimum: 2 Personer", 
+        "ourRoomRoom4Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom4Bed" => "Senge: 2 Enkeltsenge", 
+        "ourRoomRoom4Occupancy" => "Maksimum: 2 Personer", 
+        "ourRoomRoom5Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom5Bed" => "Senge: 2 Enkeltsenge", 
+        "ourRoomRoom5Occupancy" => "Maksimum: 2 Personer", 
+        "ourRoomRoom6Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom6Bed" => "Senge: 2 Enkeltsenge", 
+        "ourRoomRoom6Occupancy" => "Maksimum: 2 Personer", 
+        "ourRoomRoom7Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom7Bed" => "Senge: 2 Enkeltsenge", 
+        "ourRoomRoom7Occupancy" => "Maksimum: 2 Personer", 
+        "ourRoomPriceFrom" => "Fra", 
+        "ourRoomMoreInfo" => "Mere Info"
+      );
     }
   }
 ?>

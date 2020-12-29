@@ -10,7 +10,11 @@
   $roomsSectionTextDefaultDede = "Das Panorama Lauenen B&amp;B verfügt über insgesamt 7 Doppelzimmer. Ein Doppelzimmer ";
   $roomsSectionTextDefaultDede .= "hat einen Balkon mit fantastischem Blick auf die Schweizer Alpen. Es gibt auch 2 Badezimmer, ";
   $roomsSectionTextDefaultDede .= "die sich die Gäste teilen.";
-
+  
+  $roomsSectionTextDefaultDadk = "Panorama Lauenen B&amp;B har i alt 7 dobbeltværelser. Et dobbeltværelse har balkon ";
+  $roomsSectionTextDefaultDadk .= "med en fantastisk udsigt over de schweiziske alper. Der er også 2 ";
+  $roomsSectionTextDefaultDadk .= "badeværelser, der deles blandt gæsterne.";
+  
   $roomsSectionText = array(
     "roomsSectionRooms" => "Our Rooms", 
     "roomsSectionText" => $roomsSectionTextDefault,
@@ -42,6 +46,11 @@
     if(strtolower($_GET['lang']) == 'da-dk')
     {
       $roomsLang = 'da-dk';
+      $roomsSectionText = array(
+        "roomsSectionRooms" => "Værelse", 
+        "roomsSectionText" => $roomsSectionTextDefaultDadk,
+        "roomsSectionBookRoom" => 'Reservere'
+      );
     }
   }
 ?>

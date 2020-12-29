@@ -52,7 +52,20 @@
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
-      
+      $seendoSectionText = array(
+        "seendoSectionSeendoTitle" => "Aktiviteter", 
+        "seendoSectionSkiTitle" => "Skisportssteder", 
+        "seendoSectionSkiText" => "Saanenland-regionen består af flere kendte skisportssteder", 
+        "seendoSectionHikingTitle" => "Bjergvandring", 
+        "seendoSectionHikingText" => "Nyd sommeren ved at vandre på de mange stier, regionen tilbyder", 
+        "seendoSectionBikingTitle" => "Mountainbiking", 
+        "seendoSectionBikingText" => "Sportsmisbrugere vil nyde cykelstierne i de omkringliggende bjerge", 
+        "seendoSectionWellnessTitle" => "Wellness og Spa", 
+        "seendoSectionWellnessText" => "Hvil og hyg dig i et wellness- og spa-center i landsbyen Gstaad", 
+        "seendoSectionShoppingTitle" => "Shopping", 
+        "seendoSectionShoppingText" => "Besøg shoppinggaderne i den verdenskendte landsby Gstaad", 
+        "seendoSectionMoreText" => "Og mange flere..."
+      );
     }
   }
 ?>

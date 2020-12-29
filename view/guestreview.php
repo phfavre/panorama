@@ -28,7 +28,12 @@
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
-      
+      $guestreviewSectionText = array(
+        "guestreviewSectionGuestReviewTitle" => "Gæsteanmeldelser", 
+        "guestreviewSectionGuestReview1" => '"Vært og værtinde er super! Meget venlige og meget hjælpsomme. Studiet var stort og meget behageligt. Hele huset er charmerende og meget sødt dekoreret."<br>(Suzann, oversat af Booking.com)', 
+        "guestreviewSectionGuestReview2" => '"Fremragende udsigt og fremragende værter!"<br>(Jacqueline, oversat af Booking.com)', 
+        "guestreviewSectionGuestReview3" => '"Personalet er fremragende og gik ud af deres måde at sikre, at jeg havde et vidunderligt ophold!"<br>(Marie, oversat af Booking.com)'
+      );
     }
   }
 ?>

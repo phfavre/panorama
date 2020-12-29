@@ -19,7 +19,9 @@
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
-      
+      $contactSectionText = array(
+        "contactSectionContactTitle" => "Kontakt"
+      );
     }
   }
 ?>

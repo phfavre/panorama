@@ -55,7 +55,21 @@
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
-      
+      $serviceSectionText = array(
+        "serviceSectionServiceTitle" => "Tjenester", 
+        "serviceSectionBreakfastTitle" => "Morgenmad", 
+        "serviceSectionBreakfastText" => "Morgenmaden består af et stort udvalg af hjemmelavede og naturlige produkter", 
+        "serviceSectionHikingTitle" => "Vandreture", 
+        "serviceSectionHikingText" => "Vi hjælper og rådgiver om bjergvandringsture i den dejlige omgivelse Saanenland", 
+        "serviceSectionSportTitle" => "Vinter Sport", 
+        "serviceSectionSportText" => "Vi hjælper og rådgiver om vintersport til skisportsstederne Lauenen og Gstaad", 
+        "serviceSectionWifiTitle" => "Gratis Wifi", 
+        "serviceSectionWifiText" => "Nyd den gratis wifi-adgang overalt i boligen", 
+        "serviceSectionMotoTitle" => "Motorcykelture", 
+        "serviceSectionMotoText" => "Vi arrangerer motorcykelture i de schweiziske alper", 
+        "serviceSectionKitchenTitle" => "Køkken", 
+        "serviceSectionKitchenText" => "Vi forbereder måltider til grupper efter anmodning"
+      );
     }
   }
 ?>

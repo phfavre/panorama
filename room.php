@@ -63,6 +63,21 @@
     if(strtolower($_GET['lang']) == 'da-dk')
     {
       $roomLang = 'da-dk';
+      $roomText = array(
+        "roomPageTitle" => "Værelse - B&amp;B Panorama Lauenen",
+        "roomRoomPrices" => "Værelsespriser", 
+        "roomRoomFareExplanation" => "Pris per person per nat", 
+        "roomHighSeasonWinter" => "Højsæson Vinter", 
+        "roomHighSeasonSummer" => "Højsæson Sommer", 
+        "roomLowSeasonSpring" => "Lavsæson Forår", 
+        "roomLowSeasonAutumn" => "Lavsæson Efterår", 
+        "roomDateFrom" => "Fra", 
+        "roomBreakfastIncl" => "morgenmad inkluderet", 
+        "roomIfOnePerson" => "til 1 person", 
+        "roomIfTwoPerson" => "til 2 personer", 
+        "roomAdditionalTax" => "Ekstra skat på 2 CHF pr. Person tilføjes ovenstående priser.", 
+        "roomContactUs" => "Kontakt os venligst for gruppepris."
+      );
     }
   }
 ?>
