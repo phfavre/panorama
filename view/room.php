@@ -1,9 +1,9 @@
 <?php
-  $roomsSectionTextDefault = "Panorama Lauenen B&amp;B has in total 4 double rooms. One double room has a ";
+  $roomsSectionTextDefault = "Panorama Lauenen B&amp;B has in total 7 double rooms. One double room has a ";
   $roomsSectionTextDefault .= "balcony with a fantastic view on the Swiss Alps. There are also 2 bathrooms shared ";
   $roomsSectionTextDefault .= "among guests.";
   
-  $roomsSectionTextDefaultFrfr = "La Maison d'Hôtes Panorama Lauenen possède au total 4 chambres doubles. Une chambre double ";
+  $roomsSectionTextDefaultFrfr = "La Maison d'Hôtes Panorama Lauenen possède au total 7 chambres doubles. Une chambre double ";
   $roomsSectionTextDefaultFrfr .= "est dotée d'un balcon avec vue fantastique sur les Alpes Suisses. Il y'a également 2 salles d'eau ";
   $roomsSectionTextDefaultFrfr .= "partagées.";
 

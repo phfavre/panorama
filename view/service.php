@@ -4,15 +4,15 @@
     "serviceSectionBreakfastTitle" => "Breakfast", 
     "serviceSectionBreakfastText" => "The breakfast is composed of a large choice of home made and natural products", 
     "serviceSectionHikingTitle" => "Mountain Tour", 
-    "serviceSectionHikingText" => "We organize mountain hiking tours in the nice surrounding region of Saanenland", 
+    "serviceSectionHikingText" => "We assist and advise concerning mountain hiking tours in the nice surrounding region of Saanenland", 
     "serviceSectionSportTitle" => "Winter Sports", 
-    "serviceSectionSportText" => "We organize ski passes for the Lauenen and Gstaad ski resorts", 
+    "serviceSectionSportText" => "We assist and advise concerning winter sports for the Lauenen and Gstaad ski resorts", 
     "serviceSectionWifiTitle" => "Free Wifi", 
     "serviceSectionWifiText" => "Enjoy the free wifi access anywhere within the accomodation", 
     "serviceSectionMotoTitle" => "Motorcycle Tours", 
     "serviceSectionMotoText" => "We organize motorcycle tours in the Swiss Alps roads", 
     "serviceSectionKitchenTitle" => "Kitchen", 
-    "serviceSectionKitchenText" => "Prepare your own lunch or dinner in the provided kitchen space"
+    "serviceSectionKitchenText" => "We prepare meals for groups upon request"
   );
 
   if(isset($_GET['lang']))
@@ -24,15 +24,15 @@
         "serviceSectionBreakfastTitle" => "Petit Déjeuner", 
         "serviceSectionBreakfastText" => "Le petit déjeuner est composé d'un large choix de produits frais et faits maison", 
         "serviceSectionHikingTitle" => "Randonnée", 
-        "serviceSectionHikingText" => "Nous organisons des balades en montagne dans la belle région de Saanenland", 
+        "serviceSectionHikingText" => "Nous assistons et conseillons concernant les randonnées en montagne dans la belle région de Saanenland", 
         "serviceSectionSportTitle" => "Sports d'Hiver", 
-        "serviceSectionSportText" => "Nous assistons dans l'achat des abonnements de ski pour les stations de Lauenen et de Gstaad", 
+        "serviceSectionSportText" => "Nous assistons et conseillons en matière de sports d'hivers pour les stations de Lauenen et de Gstaad", 
         "serviceSectionWifiTitle" => "Wifi Gratuit", 
         "serviceSectionWifiText" => "Profitez de l'accès wifi partout dans l'établissement", 
         "serviceSectionMotoTitle" => "Tours en Moto", 
         "serviceSectionMotoText" => "Nous organisons des tours en moto sur les belles routes des Alpes Suisses", 
         "serviceSectionKitchenTitle" => "Cuisine", 
-        "serviceSectionKitchenText" => "Préparez vos repas dans la cuisine mise a votre disposition"
+        "serviceSectionKitchenText" => "Nous préparons des repas pour groupe, sur demande"
       );
     }
     if(strtolower($_GET['lang']) == 'de-de')

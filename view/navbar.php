@@ -50,6 +50,11 @@
             </a>
           </li>
           <li class="nav_dropdown_el">
+            <a href="./index?lang=<?php echo $navLang; ?>" class="capLetters">
+              <?php echo printValueGivenKey($navBarText, 'navHome', 'Home'); ?>
+            </a>
+          </li>
+          <li class="nav_dropdown_el">
             <a href="./index?lang=<?php echo $navLang; ?>#about_section" rel="" id="link_anchor_about_nb" class="anchorLink capLetters">
               <?php echo printValueGivenKey($navBarText, 'navAbout', 'About'); ?>
             </a>
