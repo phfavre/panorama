@@ -118,6 +118,12 @@
                 <div class="diapo_imgs_class_div"><a href="img/lauenen_06.jpg" data-lightbox="Article gallery photos" data-title="<?php echo printValueGivenKey($gallerySectionText, 'gallerySectionVillagePhoto', 'Lauenen Village'); ?>"><div class="diapo_imgs_class" style="background-image: url(img/lauenen_06.jpg)" id="gallery_section_img"></div></a></div>
               </div>
               <div class="col-md-4 hiddenPic">
+                <div class="diapo_imgs_class_div"><a href="img/lauenen_07.jpg" data-lightbox="Article gallery photos" data-title="<?php echo printValueGivenKey($gallerySectionText, 'gallerySectionVillagePhoto', 'Lauenen Village'); ?>"><div class="diapo_imgs_class" style="background-image: url(img/lauenen_07.jpg)" id="gallery_section_img"></div></a></div>
+              </div>
+              <div class="col-md-4 hiddenPic">
+                <div class="diapo_imgs_class_div"><a href="img/lauenen_08.jpg" data-lightbox="Article gallery photos" data-title="<?php echo printValueGivenKey($gallerySectionText, 'gallerySectionVillagePhoto', 'Lauenen Village'); ?>"><div class="diapo_imgs_class" style="background-image: url(img/lauenen_08.jpg)" id="gallery_section_img"></div></a></div>
+              </div>
+              <div class="col-md-4 hiddenPic">
                 <div class="diapo_imgs_class_div"><a href="img/house_01.jpg" data-lightbox="Article gallery photos" data-title="Panorama B&B"><div class="diapo_imgs_class" style="background-image: url(img/house_01.jpg)" id="gallery_section_img"></div></a></div>
               </div>
               <div class="col-md-4 hiddenPic">

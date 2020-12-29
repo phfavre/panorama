@@ -45,9 +45,7 @@
       <div class="navbar_list">
         <ul class="topnav" id="myTopnav">
           <li class="nav_dropdown_el">
-            <a href="./index?lang=<?php echo $navLang; ?>" class="capLetters">
-              <?php echo printValueGivenKey($navBarText, 'navHome', 'Home'); ?>
-            </a>
+            <div class="nav_logo_img_div"><span id="nav_logo_helper"></span><img src="img/logo_trans.png" alt="logo" id="nav_logo_img" width="50"></div>
           </li>
           <li class="nav_dropdown_el">
             <a href="./index?lang=<?php echo $navLang; ?>" class="capLetters">

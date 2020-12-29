@@ -120,3 +120,18 @@ ul.topnav li a .navItemBorder
     border: none;
   }
 }
+
+.nav_logo_img_div {
+  height: 70px;
+  padding-right: 20px;
+}
+
+#nav_logo_helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#nav_logo_img {
+  vertical-align: middle;
+}
