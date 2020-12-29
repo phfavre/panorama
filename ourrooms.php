@@ -68,6 +68,33 @@
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $ourRoomLang = 'de-de';
+      $ourRoomText = array(
+        "ourRoomPageTitle" => "Zimmer - B&amp;B Panorama Lauenen",
+        "ourRoomTitle" => "Unsere Zimmer", 
+        "ourRoomRoom1Info" => "Zimmer mit Balkon", 
+        "ourRoomRoom1Bed" => "Betten: 2 Einzelbetten", 
+        "ourRoomRoom1Occupancy" => "Max: 2 Personen", 
+        "ourRoomRoom2Info" => "Zimmer mit Balkon", 
+        "ourRoomRoom2Bed" => "Betten: 2 Einzelbetten", 
+        "ourRoomRoom2Occupancy" => "Max: 2 Personen", 
+        "ourRoomRoom3Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom3Bed" => "Betten: 2 Einzelbetten", 
+        "ourRoomRoom3Occupancy" => "Max: 2 Personen", 
+        "ourRoomRoom4Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom4Bed" => "Betten: 2 Einzelbetten", 
+        "ourRoomRoom4Occupancy" => "Max: 2 Personen", 
+        "ourRoomRoom5Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom5Bed" => "Betten: 2 Einzelbetten", 
+        "ourRoomRoom5Occupancy" => "Max: 2 Personen", 
+        "ourRoomRoom6Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom6Bed" => "Betten: 2 Einzelbetten", 
+        "ourRoomRoom6Occupancy" => "Max: 2 Personen", 
+        "ourRoomRoom7Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom7Bed" => "Betten: 2 Einzelbetten", 
+        "ourRoomRoom7Occupancy" => "Max: 2 Personen", 
+        "ourRoomPriceFrom" => "Von", 
+        "ourRoomMoreInfo" => "Mehr Info"
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

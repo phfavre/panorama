@@ -23,7 +23,14 @@
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
-      
+      $gallerySectionText = array(
+        "gallerySectionGalleryTitle" => "Galerie", 
+        "gallerySectionVillagePhoto" => "Lauenen Dorf", 
+        "gallerySectionGuestroomPhoto" => "Zimmer", 
+        "gallerySectionDiningroomPhoto" => "Speisesaal", 
+        "gallerySectionKitchenettePhoto" => "Kochnische", 
+        "gallerySectionBathroomPhoto" => "Badezimmer"
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

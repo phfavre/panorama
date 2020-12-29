@@ -31,6 +31,16 @@
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $footLang = 'de-de';
+      $footBarText = array(
+        "footLinks" => "Liens",
+        "footHome" => "Home",
+        "footAbout" => "Über Uns", 
+        "footRooms" => "Zimmer", 
+        "footServices" => "Dienste",
+        "footGallery" => "Galerie",
+        "footSeedo" => "Aktivitäten",
+        "footContact" => "Kontaktiere Uns"
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

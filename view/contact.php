@@ -13,7 +13,9 @@
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
-      
+      $contactSectionText = array(
+        "contactSectionContactTitle" => "Kontaktiere Uns"
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

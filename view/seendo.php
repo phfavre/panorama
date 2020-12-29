@@ -35,7 +35,20 @@
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
-      
+      $seendoSectionText = array(
+        "seendoSectionSeendoTitle" => "Aktivitäten", 
+        "seendoSectionSkiTitle" => "Skigebiete", 
+        "seendoSectionSkiText" => "Das Saanenland besteht aus mehreren bekannten Skigebieten", 
+        "seendoSectionHikingTitle" => "Bergwandern", 
+        "seendoSectionHikingText" => "Genießen Sie die Sommerzeit, indem Sie auf den vielen Wegen wandern, die die Region bietet", 
+        "seendoSectionBikingTitle" => "Mountainbiking", 
+        "seendoSectionBikingText" => "Sportbegeisterte werden die Radwege in den umliegenden Bergen genießen", 
+        "seendoSectionWellnessTitle" => "Wellness und Spa", 
+        "seendoSectionWellnessText" => "Ruhen Sie sich aus und genießen Sie ein Wellness- und Wellnesscenter im Dorf Gstaad", 
+        "seendoSectionShoppingTitle" => "Shopping", 
+        "seendoSectionShoppingText" => "Besuchen Sie die Einkaufsstraßen im weltbekannten Dorf Gstaad", 
+        "seendoSectionMoreText" => "Und viele mehr..."
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

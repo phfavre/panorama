@@ -186,6 +186,93 @@
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $roomviewLang = 'de-de';
+      $roomviewText = array(
+        "spitzhorn" => array(
+            "roomviewRoomName" => "Spitzhorn", 
+            "roomviewImg1Path" => "img/spitzhorn_01.jpg", 
+            "roomviewImg2Path" => "img/spitzhorn_02.jpg", 
+            "roomviewImg3Path" => "img/spitzhorn_03.jpg", 
+            "roomviewRoomPrice" => "CHF 55", 
+            "roomviewAccomodates" => "Platz für: 2 Personen", 
+            "roomviewBeds" => "Betten: 2 Einzelbetten", 
+            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+        ), 
+        "wildhorn" => array(
+            "roomviewRoomName" => "Wildhorn", 
+            "roomviewImg1Path" => "img/wildhorn_01.jpg", 
+            "roomviewImg2Path" => "img/wildhorn_02.jpg", 
+            "roomviewImg3Path" => "img/wildhorn_03.jpg", 
+            "roomviewRoomPrice" => "CHF 55", 
+            "roomviewAccomodates" => "Platz für: 2 Personen", 
+            "roomviewBeds" => "Betten: 2 Einzelbetten", 
+            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+        ), 
+        "geltenhorn" => array(
+            "roomviewRoomName" => "Geltenhorn", 
+            "roomviewImg1Path" => "img/geltenhorn_01.jpg", 
+            "roomviewImg2Path" => "img/geltenhorn_02.jpg", 
+            "roomviewImg3Path" => "img/geltenhorn_03.jpg", 
+            "roomviewRoomPrice" => "CHF 55", 
+            "roomviewAccomodates" => "Platz für: 2 Personen", 
+            "roomviewBeds" => "Betten: 2 Einzelbetten", 
+            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+        ), 
+        "niesenhorn" => array(
+            "roomviewRoomName" => "Niesenhorn", 
+            "roomviewImg1Path" => "img/niesenhorn_01.jpg", 
+            "roomviewImg2Path" => "img/niesenhorn_02.jpg", 
+            "roomviewImg3Path" => "img/niesenhorn_03.jpg", 
+            "roomviewRoomPrice" => "CHF 55", 
+            "roomviewAccomodates" => "Platz für: 2 Personen", 
+            "roomviewBeds" => "Betten: 2 Einzelbetten", 
+            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+        ), 
+        "wasserngrat" => array(
+            "roomviewRoomName" => "Wasserngrat", 
+            "roomviewImg1Path" => "img/wasserngrat_01.jpg", 
+            "roomviewImg2Path" => "img/wasserngrat_02.jpg", 
+            "roomviewImg3Path" => "img/wasserngrat_03.jpg", 
+            "roomviewRoomPrice" => "CHF 55", 
+            "roomviewAccomodates" => "Platz für: 2 Personen", 
+            "roomviewBeds" => "Betten: 2 Einzelbetten", 
+            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+        ), 
+        "gride" => array(
+            "roomviewRoomName" => "Gride", 
+            "roomviewImg1Path" => "img/gride_01.jpg", 
+            "roomviewImg2Path" => "img/gride_02.jpg", 
+            "roomviewImg3Path" => "img/gride_03.jpg", 
+            "roomviewRoomPrice" => "CHF 55", 
+            "roomviewAccomodates" => "Platz für: 2 Personen", 
+            "roomviewBeds" => "Betten: 2 Einzelbetten", 
+            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+        ), 
+        "rothorn" => array(
+            "roomviewRoomName" => "Rothorn", 
+            "roomviewImg1Path" => "img/rothorn_01.jpg", 
+            "roomviewImg2Path" => "img/rothorn_02.jpg", 
+            "roomviewImg3Path" => "img/rothorn_03.jpg", 
+            "roomviewRoomPrice" => "CHF 55", 
+            "roomviewAccomodates" => "Platz für: 2 Personen", 
+            "roomviewBeds" => "Betten: 2 Einzelbetten", 
+            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+        ), 
+        "generic" => array(
+            "roomviewRoomPriceFrom" => "Von", 
+            "roomviewPerNight" => "Pro Nacht", 
+            "roomviewBookInfo" => "Mehr Informationen", 
+            "roomviewProperties" => "Eigentum:", 
+            "roomviewAmenities" => "Ausrüstung:", 
+            "roomviewCheckInOut" => "Check-In / Check-Out:"
+        )
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

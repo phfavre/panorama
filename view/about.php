@@ -10,6 +10,12 @@
   $aboutSectionTextDefaultFrfr .= "profiter des Alpes Suisses. Les sentiers de randonnée en été ainsi que les pistes de ski ";
   $aboutSectionTextDefaultFrfr .= "en hivers étants situés qu'à quelques centaines de mètres, le plaisir est garanti tout au ";
   $aboutSectionTextDefaultFrfr .= "long de l'année!";
+  
+  $aboutSectionTextDefaultDede = "Willkommen auf unserer Webseite! Es gibt nichts Besseres als eine aktive Erholung ";
+  $aboutSectionTextDefaultDede .= "für Ihr Wohlbefinden und Ihre Gesundheit. Das Bed &amp; Breakfast Panorama ";
+  $aboutSectionTextDefaultDede .= "Lauenen bietet Ihnen alles, was Sie brauchen, um die Schweizer ";
+  $aboutSectionTextDefaultDede .= "Alpen zu genießen. Die Sommerwanderwege und die Winter-Langlaufloipe ";
+  $aboutSectionTextDefaultDede .= "sind nur wenige Meter entfernt und Sie werden Ihre Gedanken während der vier Jahreszeiten erfrischen!";
 
   $aboutSectionText = array(
     "aboutSectionAbout" => "About", 
@@ -27,7 +33,10 @@
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
-      
+      $aboutSectionText = array(
+        "aboutSectionAbout" => "Über Uns", 
+        "aboutSectionText" => $aboutSectionTextDefaultDede
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

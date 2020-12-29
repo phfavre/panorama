@@ -36,6 +36,17 @@
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $bookInfoLang = 'de-de';
+      $bookInfoText = array(
+        "bookInfoPageTitle" => "Buchung - B&amp;B Panorama Lauenen",
+        "bookInfoTitle" => "Buchung", 
+        "bookInfoIntro" => "Wenn Sie ein Zimmer buchen möchten, können Sie eine der folgenden Optionen wählen:", 
+        "bookInfoOption1" => "Kontaktieren Sie uns direkt über die unten angegebenen Kontaktinformationen. Wir nehmen Ihre Bestellung gerne entgegen!", 
+        "bookInfoOption2" => "Buchen Sie über Booking.com", 
+        "bookInfoOption3" => "Buchen Sie über Tripadvisor.com", 
+        "bookInfoOption4" => "Finden Sie uns auf Google", 
+        "bookInfoHere" => "hier", 
+        "bookInfoLookingForward" => "Wir freuen uns, Sie begrüßen zu dürfen!"
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

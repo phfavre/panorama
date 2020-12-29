@@ -19,7 +19,12 @@
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
-      
+      $guestreviewSectionText = array(
+        "guestreviewSectionGuestReviewTitle" => "Gästebewertungen", 
+        "guestreviewSectionGuestReview1" => '"Gastgeber und Gastgeberin sind super! Sehr freundlich und sehr hilfsbereit. Das Studio war groß und sehr komfortabel. Das gesamte Haus ist charmant und sehr liebevoll eingerichtet."<br>(Suzann, übersetzt von Booking.com)', 
+        "guestreviewSectionGuestReview2" => '"Hervorragende Aussicht und ausgezeichnete Gastgeber!"<br>(Jacqueline, übersetzt von Booking.com)', 
+        "guestreviewSectionGuestReview3" => '"Die Angestellten sind ausgezeichnet und haben alles getan, um sicherzustellen, dass ich einen wundervollen Aufenthalt hatte!"<br>(Marie, übersetzt von Booking.com)'
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

@@ -37,7 +37,21 @@
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
-      
+      $serviceSectionText = array(
+        "serviceSectionServiceTitle" => "Unsere Leistungen", 
+        "serviceSectionBreakfastTitle" => "Frühstück", 
+        "serviceSectionBreakfastText" => "Das Frühstück besteht aus einer großen Auswahl an hausgemachten und natürlichen Produkten", 
+        "serviceSectionHikingTitle" => "Bergtour", 
+        "serviceSectionHikingText" => "Wir unterstützen und beraten über Bergwanderungen in der schönen Umgebung des Saanenlandes", 
+        "serviceSectionSportTitle" => "Wintersport", 
+        "serviceSectionSportText" => "Wir unterstützen und beraten über Wintersport in den Skigebieten Lauenen und Gstaad", 
+        "serviceSectionWifiTitle" => "Gratis Wifi", 
+        "serviceSectionWifiText" => "Genießen Sie das Wifi überall in der Unterkunft", 
+        "serviceSectionMotoTitle" => "Motorradtouren", 
+        "serviceSectionMotoText" => "Wir organisieren Motorradtouren auf den Schweizer Alpenstraßen", 
+        "serviceSectionKitchenTitle" => "Küche", 
+        "serviceSectionKitchenText" => "Auf Anfrage bereiten wir Mahlzeiten für Gruppen zu"
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

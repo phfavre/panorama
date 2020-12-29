@@ -6,6 +6,10 @@
   $roomsSectionTextDefaultFrfr = "La Maison d'Hôtes Panorama Lauenen possède au total 7 chambres doubles. Une chambre double ";
   $roomsSectionTextDefaultFrfr .= "est dotée d'un balcon avec vue fantastique sur les Alpes Suisses. Il y'a également 2 salles d'eau ";
   $roomsSectionTextDefaultFrfr .= "partagées.";
+  
+  $roomsSectionTextDefaultDede = "Das Panorama Lauenen B&amp;B verfügt über insgesamt 7 Doppelzimmer. Ein Doppelzimmer ";
+  $roomsSectionTextDefaultDede .= "hat einen Balkon mit fantastischem Blick auf die Schweizer Alpen. Es gibt auch 2 Badezimmer, ";
+  $roomsSectionTextDefaultDede .= "die sich die Gäste teilen.";
 
   $roomsSectionText = array(
     "roomsSectionRooms" => "Our Rooms", 
@@ -29,6 +33,11 @@
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $roomsLang = 'de-de';
+      $roomsSectionText = array(
+        "roomsSectionRooms" => "Unsere Zimmer", 
+        "roomsSectionText" => $roomsSectionTextDefaultDede,
+        "roomsSectionBookRoom" => 'Buchen'
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {

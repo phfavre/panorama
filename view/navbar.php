@@ -24,13 +24,23 @@
         "navServices" => "Services",
         "navGallery" => "Images",
         "navSeedo" => "À Voir",
-        "navContact" => "Nous Contacter",
+        "navContact" => "Contacts",
         "navBookroom" => "Réserver"
       );
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $navLang = 'de-de';
+      $navBarText = array(
+        "navHome" => "Home",
+        "navAbout" => "Über Uns", 
+        "navRooms" => "Zimmer", 
+        "navServices" => "Dienste",
+        "navGallery" => "Galerie",
+        "navSeedo" => "Aktivitäten",
+        "navContact" => "Kontakt",
+        "navBookroom" => "Buchen"
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
@@ -45,7 +55,7 @@
       <div class="navbar_list">
         <ul class="topnav" id="myTopnav">
           <li class="nav_dropdown_el">
-            <div class="nav_logo_img_div"><span id="nav_logo_helper"></span><img src="img/logo_trans.png" alt="logo" id="nav_logo_img" width="50"></div>
+            <div class="nav_logo_img_div"><span id="nav_logo_helper"></span><img src="img/logo_trans.png" alt="logo" id="nav_logo_img" width="40"></div>
           </li>
           <li class="nav_dropdown_el">
             <a href="./index?lang=<?php echo $navLang; ?>" class="capLetters">

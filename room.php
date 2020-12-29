@@ -44,6 +44,21 @@
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $roomLang = 'de-de';
+      $roomText = array(
+        "roomPageTitle" => "Zimmer - B&amp;B Panorama Lauenen",
+        "roomRoomPrices" => "Zimmerpreise", 
+        "roomRoomFareExplanation" => "Preis pro Person pro Nacht", 
+        "roomHighSeasonWinter" => "Hochsaison Winter", 
+        "roomHighSeasonSummer" => "Hochsaison Sommer", 
+        "roomLowSeasonSpring" => "Nebensaison Frühling", 
+        "roomLowSeasonAutumn" => "Nebensaison Herbst", 
+        "roomDateFrom" => "Von", 
+        "roomBreakfastIncl" => "Frühstück inkludiert", 
+        "roomIfOnePerson" => "für 1 Person", 
+        "roomIfTwoPerson" => "für 2 Personen", 
+        "roomAdditionalTax" => "Zu den oben genannten Preisen wird eine zusätzliche Steuer von CHF 2 pro Person erhoben.", 
+        "roomContactUs" => "Bitte kontaktieren Sie uns für Gruppenpreise."
+      );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
