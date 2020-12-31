@@ -1,15 +1,15 @@
 <?php
-  $roomsSectionTextDefault = "Panorama Lauenen B&amp;B has in total 7 double rooms. One double room has a ";
-  $roomsSectionTextDefault .= "balcony with a fantastic view on the Swiss Alps. There are also 2 bathrooms shared ";
-  $roomsSectionTextDefault .= "among guests.";
+  $roomsSectionTextDefault = "The Panorama Lauenen B&amp;B has a total of 7 double rooms. One double room has a ";
+  $roomsSectionTextDefault .= "balcony with a fantastic view on the Swiss Alps. On each floor there is a bathroom, which is shared ";
+  $roomsSectionTextDefault .= "by the guests.";
   
-  $roomsSectionTextDefaultFrfr = "La Maison d'Hôtes Panorama Lauenen possède au total 7 chambres doubles. Une chambre double ";
-  $roomsSectionTextDefaultFrfr .= "est dotée d'un balcon avec vue fantastique sur les Alpes Suisses. Il y'a également 2 salles d'eau ";
+  $roomsSectionTextDefaultFrfr = "Le B&amp;B Panorama Lauenen dispose d'un total de 7 chambres doubles. Une chambre double ";
+  $roomsSectionTextDefaultFrfr .= "est dotée d'un balcon offrant une vue fantastique sur les Alpes Suisses. Il y'a également 2 salles d'eau ";
   $roomsSectionTextDefaultFrfr .= "partagées.";
   
-  $roomsSectionTextDefaultDede = "Das Panorama Lauenen B&amp;B verfügt über insgesamt 7 Doppelzimmer. Ein Doppelzimmer ";
-  $roomsSectionTextDefaultDede .= "hat einen Balkon mit fantastischem Blick auf die Schweizer Alpen. Es gibt auch 2 Badezimmer, ";
-  $roomsSectionTextDefaultDede .= "die sich die Gäste teilen.";
+  $roomsSectionTextDefaultDede = "Das Panorama Lauenen B&amp;B verfügt über insgesamt 7 Doppelzimmer. Ein Doppelzimmer mit Balkon das einen ";
+  $roomsSectionTextDefaultDede .= "fantastischem Blick auf die Lauener Alpen offeriert. ";
+  $roomsSectionTextDefaultDede .= "Auf jeder Etage befindet sich ein Badezimmer, das sich die Gäste teilen.";
   
   $roomsSectionTextDefaultDadk = "Panorama Lauenen B&amp;B har i alt 7 dobbeltværelser. Et dobbeltværelse har balkon ";
   $roomsSectionTextDefaultDadk .= "med en fantastisk udsigt over de schweiziske alper. Der er også 2 ";

@@ -2,15 +2,15 @@
   $serviceSectionText = array(
     "serviceSectionServiceTitle" => "Our Services", 
     "serviceSectionBreakfastTitle" => "Breakfast", 
-    "serviceSectionBreakfastText" => "The breakfast is composed of a large choice of home made and natural products", 
+    "serviceSectionBreakfastText" => "The generous breakfast buffet is composed of a wide selection of homemade and natural products", 
     "serviceSectionHikingTitle" => "Mountain Tour", 
-    "serviceSectionHikingText" => "We assist and advise concerning mountain hiking tours in the nice surrounding region of Saanenland", 
+    "serviceSectionHikingText" => "We will be happy to help and advise on mountain hikes in the beautiful surrounding region of Saanenland", 
     "serviceSectionSportTitle" => "Winter Sports", 
-    "serviceSectionSportText" => "We assist and advise concerning winter sports for the Lauenen and Gstaad ski resorts", 
+    "serviceSectionSportText" => "With pleasure we will help and advise you on winter sports in the ski areas of Lauenen and Gstaad.", 
     "serviceSectionWifiTitle" => "Free Wifi", 
     "serviceSectionWifiText" => "Enjoy the free wifi access anywhere within the accomodation", 
     "serviceSectionMotoTitle" => "Motorcycle Tours", 
-    "serviceSectionMotoText" => "We organize motorcycle tours in the Swiss Alps roads", 
+    "serviceSectionMotoText" => "On request we will be pleased to organize unforgettable motorcycle tours on the Swiss Alpine roads.", 
     "serviceSectionKitchenTitle" => "Kitchen", 
     "serviceSectionKitchenText" => "We prepare meals for groups upon request"
   );
@@ -22,15 +22,15 @@
       $serviceSectionText = array(
         "serviceSectionServiceTitle" => "Nos Services", 
         "serviceSectionBreakfastTitle" => "Petit Déjeuner", 
-        "serviceSectionBreakfastText" => "Le petit déjeuner est composé d'un large choix de produits frais et faits maison", 
+        "serviceSectionBreakfastText" => "Le généreux buffet du petit déjeuner est composé d'une large sélection de produits frais et faits maison", 
         "serviceSectionHikingTitle" => "Randonnée", 
-        "serviceSectionHikingText" => "Nous assistons et conseillons concernant les randonnées en montagne dans la belle région de Saanenland", 
+        "serviceSectionHikingText" => "C’est avec plaisir que nous vous aidons et que nous vous conseillons sur les randonnées en montagne dans les magnifiques environs du Saanenland", 
         "serviceSectionSportTitle" => "Sports d'Hiver", 
-        "serviceSectionSportText" => "Nous assistons et conseillons en matière de sports d'hivers pour les stations de Lauenen et de Gstaad", 
+        "serviceSectionSportText" => "C’est avec plaisir que nous vous aidons et que nous vous conseillons en matière de sports d'hivers dans les domaines skiables de Lauenen et de Gstaad", 
         "serviceSectionWifiTitle" => "Wifi Gratuit", 
         "serviceSectionWifiText" => "Profitez de l'accès wifi partout dans l'établissement", 
         "serviceSectionMotoTitle" => "Tours en Moto", 
-        "serviceSectionMotoText" => "Nous organisons des tours en moto sur les belles routes des Alpes Suisses", 
+        "serviceSectionMotoText" => "Sur demande nous nous ferons un plaisir d'organiser des tours inoubliables à moto sur les routes alpines suisses.", 
         "serviceSectionKitchenTitle" => "Cuisine", 
         "serviceSectionKitchenText" => "Nous préparons des repas pour groupe, sur demande"
       );
@@ -40,15 +40,15 @@
       $serviceSectionText = array(
         "serviceSectionServiceTitle" => "Unsere Leistungen", 
         "serviceSectionBreakfastTitle" => "Frühstück", 
-        "serviceSectionBreakfastText" => "Das Frühstück besteht aus einer großen Auswahl an hausgemachten und natürlichen Produkten", 
+        "serviceSectionBreakfastText" => "Das grosszügige Frühstücksbuffet besteht aus einer großen Auswahl an hausgemachten und natürlichen Produkten", 
         "serviceSectionHikingTitle" => "Bergtour", 
-        "serviceSectionHikingText" => "Wir unterstützen und beraten über Bergwanderungen in der schönen Umgebung des Saanenlandes", 
+        "serviceSectionHikingText" => "Wir unterstützen und beraten Sie gerne über Bergwanderungen in der schönen Umgebung des Saanenlandes", 
         "serviceSectionSportTitle" => "Wintersport", 
-        "serviceSectionSportText" => "Wir unterstützen und beraten über Wintersport in den Skigebieten Lauenen und Gstaad", 
+        "serviceSectionSportText" => "Wir unterstützen und beraten Sie gerne über Wintersport in den Skigebieten Lauenen und Gstaad", 
         "serviceSectionWifiTitle" => "Gratis Wifi", 
-        "serviceSectionWifiText" => "Genießen Sie das Wifi überall in der Unterkunft", 
+        "serviceSectionWifiText" => "Gratis Wifi überall in der Unterkunft", 
         "serviceSectionMotoTitle" => "Motorradtouren", 
-        "serviceSectionMotoText" => "Wir organisieren Motorradtouren auf den Schweizer Alpenstraßen", 
+        "serviceSectionMotoText" => "Gerne organisieren wir für Sie unvergessliche Motorradtouren auf den Schweizer Alpenstraßen", 
         "serviceSectionKitchenTitle" => "Küche", 
         "serviceSectionKitchenText" => "Auf Anfrage bereiten wir Mahlzeiten für Gruppen zu"
       );

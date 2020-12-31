@@ -2,15 +2,15 @@
   $seendoSectionText = array(
     "seendoSectionSeendoTitle" => "Things to Do", 
     "seendoSectionSkiTitle" => "Ski Resorts", 
-    "seendoSectionSkiText" => "The Saanenland region is composed of several well known ski resorts", 
+    "seendoSectionSkiText" => "The Saanenland offers several renowned ski resorts with slopes satisfying all levels of skiers", 
     "seendoSectionHikingTitle" => "Mountain Hiking", 
     "seendoSectionHikingText" => "Enjoy the summer time by hiking in the many trails the region offers", 
     "seendoSectionBikingTitle" => "Mountain Biking", 
-    "seendoSectionBikingText" => "Sport addicts will enjoy the biking trails in the surrounding mountains", 
+    "seendoSectionBikingText" => "Sports enthusiasts can take advantage of the many bicycle paths in the surrounding mountains", 
     "seendoSectionWellnessTitle" => "Wellness and Spa", 
-    "seendoSectionWellnessText" => "Rest and enjoy yourself in a wellness and spa center in the village of Gstaad", 
+    "seendoSectionWellnessText" => "Rest and enjoy a moment of relaxation in one of Gstaad's Wellness and Spa centers", 
     "seendoSectionShoppingTitle" => "Shopping", 
-    "seendoSectionShoppingText" => "Visit the shopping streets in the world known village of Gstaad", 
+    "seendoSectionShoppingText" => "From traditional handicrafts to high-fashion boutiques, you will find everything in Gstaad", 
     "seendoSectionMoreText" => "And many more..."
   );
 
@@ -21,15 +21,15 @@
       $seendoSectionText = array(
         "seendoSectionSeendoTitle" => "Activités", 
         "seendoSectionSkiTitle" => "Station de Ski", 
-        "seendoSectionSkiText" => "La région du Saanenland est dotée de plusieurs stations de ski", 
+        "seendoSectionSkiText" => "La région du Saanenland est dotée de plusieurs stations de ski convenants à tous niveaux", 
         "seendoSectionHikingTitle" => "Randonnée", 
-        "seendoSectionHikingText" => "Profitez des nombreux santiers de randonnée qu'offre la région en saison estivale", 
-        "seendoSectionBikingTitle" => "Vélo de Montagne", 
-        "seendoSectionBikingText" => "Les accros au sport apprécierons les parcours de vélo des montagnes environnantes", 
+        "seendoSectionHikingText" => "Vous n'aurez que l'embarras du choix quand aux nombreux santiers de randonnée et voies d'escalade qu'offre la région en saison estivale", 
+        "seendoSectionBikingTitle" => "Vélo Tout Terrain", 
+        "seendoSectionBikingText" => "Les amateurs de sports apprécierons les nombreuses piste cyclables parcourant les montagnes environnantes", 
         "seendoSectionWellnessTitle" => "Bien-être et Spa", 
-        "seendoSectionWellnessText" => "Reposez-vous dans l'un des centres bien-être et spa dans la ville de Gstaad", 
+        "seendoSectionWellnessText" => "Reposez-vous et profitez d'un moment de détente dans l'un des centres de bien-être de Gstaad", 
         "seendoSectionShoppingTitle" => "Shopping", 
-        "seendoSectionShoppingText" => "Visitez les rues commerçantes du centre ville féerique de Gstaad", 
+        "seendoSectionShoppingText" => "De l'artisanat traditionnel aux boutiques haut de gamme, faites vous plaisir dans les rues commerçantes du centre ville féerique de Gstaad", 
         "seendoSectionMoreText" => "Et bien plus..."
       );
     }
@@ -38,15 +38,15 @@
       $seendoSectionText = array(
         "seendoSectionSeendoTitle" => "Aktivitäten", 
         "seendoSectionSkiTitle" => "Skigebiete", 
-        "seendoSectionSkiText" => "Das Saanenland besteht aus mehreren bekannten Skigebieten", 
+        "seendoSectionSkiText" => "Das Saanenland bietet mehreren bekannten Skigebieten mit Pisten für jede Art Skitalent.", 
         "seendoSectionHikingTitle" => "Bergwandern", 
-        "seendoSectionHikingText" => "Genießen Sie die Sommerzeit, indem Sie auf den vielen Wegen wandern, die die Region bietet", 
+        "seendoSectionHikingText" => "Im Sommer haben Sie die Qual der Wahl denn das Saanenland verfügt über unzählige Wander- und Klettermöglichkeiten.", 
         "seendoSectionBikingTitle" => "Mountainbiking", 
-        "seendoSectionBikingText" => "Sportbegeisterte werden die Radwege in den umliegenden Bergen genießen", 
+        "seendoSectionBikingText" => "Sportbegeisterte können die vielen Radwege in den umliegenden Bergen genießen.", 
         "seendoSectionWellnessTitle" => "Wellness und Spa", 
-        "seendoSectionWellnessText" => "Ruhen Sie sich aus und genießen Sie ein Wellness- und Wellnesscenter im Dorf Gstaad", 
+        "seendoSectionWellnessText" => "Ruhen Sie sich aus und genießen Sie einen erholsamen Moment in einem der Wellnesscenter Gstaad.", 
         "seendoSectionShoppingTitle" => "Shopping", 
-        "seendoSectionShoppingText" => "Besuchen Sie die Einkaufsstraßen im weltbekannten Dorf Gstaad", 
+        "seendoSectionShoppingText" => "Vom traditionellen Handwerk bis zur Top Fashion Boutique finden Sie in Gstaad alles.", 
         "seendoSectionMoreText" => "Und viele mehr..."
       );
     }

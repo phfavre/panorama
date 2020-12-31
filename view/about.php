@@ -1,21 +1,24 @@
 <?php
-  $aboutSectionTextDefault = "Welcome to our website! There is nothing better than an active rest for your well-";
-  $aboutSectionTextDefault .= "being and for your health. The Panorama Lauenen Bed and Breakfast offers you all ";
-  $aboutSectionTextDefault .= "you need to enjoy the Swiss Alps. The summer hiking trails and the winter cross-";
-  $aboutSectionTextDefault .= "country ski run being only a few meters aways, you will refresh your mind throughout ";
+  $aboutSectionTextDefault = "Welcome to our website! There is nothing better than an active rest for your well-being ";
+  $aboutSectionTextDefault .= "and health. The Bed&amp;Breakfast Panorama Lauenen offers you everything ";
+  $aboutSectionTextDefault .= "you need to enjoy the Swiss Alps. The summer hiking trails and idyllic lake of Lauenen, "
+  $aboutSectionTextDefault .= "the winter ski slopes and cross-country ski trails, as well as the well-known village of Gstaad ";
+  $aboutSectionTextDefault .= "being only a few minutes away, you will refresh your mind throughout ";
   $aboutSectionTextDefault .= "the four seasons!";
   
-  $aboutSectionTextDefaultFrfr = "Bienvenue sur note site! Rien de mieux qu'un séjour à la montagne pour se ressourcer.";
-  $aboutSectionTextDefaultFrfr .= "La Maison d'Hôtes Panorama Lauenen vous offre tout ce dont vous avez besoin pour ";
-  $aboutSectionTextDefaultFrfr .= "profiter des Alpes Suisses. Les sentiers de randonnée en été ainsi que les pistes de ski ";
-  $aboutSectionTextDefaultFrfr .= "en hivers étants situés qu'à quelques centaines de mètres, le plaisir est garanti tout au ";
-  $aboutSectionTextDefaultFrfr .= "long de l'année!";
+  $aboutSectionTextDefaultFrfr = "Bienvenue sur note site! Rien de mieux qu'un séjour à la montagne pour se ressourcer. ";
+  $aboutSectionTextDefaultFrfr .= "Le Bed&amp;Breakfast Panorama Lauenen vous offre tout ce dont vous avez besoin pour ";
+  $aboutSectionTextDefaultFrfr .= "profiter des Alpes Suisses. Les sentiers de randonnée et le lac idyllique de Lauenen en été, ";
+  $aboutSectionTextDefaultFrfr .= "les pistes de ski et de ski de fond en hivers, ainsi que the village mondialement connu de Gstaad, ";
+  $aboutSectionTextDefaultFrfr .= "ne sont qu'à quelques minutes du Panorama B&amp;B. Le bon choix pour une évasion du quotidien, ";
+  $aboutSectionTextDefaultFrfr .= "détente et bien-être garantis en toutes saisons !";
   
-  $aboutSectionTextDefaultDede = "Willkommen auf unserer Webseite! Es gibt nichts Besseres als eine aktive Erholung ";
-  $aboutSectionTextDefaultDede .= "für Ihr Wohlbefinden und Ihre Gesundheit. Das Bed &amp; Breakfast Panorama ";
-  $aboutSectionTextDefaultDede .= "Lauenen bietet Ihnen alles, was Sie brauchen, um die Schweizer ";
-  $aboutSectionTextDefaultDede .= "Alpen zu genießen. Die Sommerwanderwege und die Winter-Langlaufloipe ";
-  $aboutSectionTextDefaultDede .= "sind nur wenige Meter entfernt und Sie werden Ihre Gedanken während der vier Jahreszeiten erfrischen!";
+  $aboutSectionTextDefaultDede = "Willkommen auf unserer Webseite! Es gibt nichts Besseres als eine aktive Erholung in den ";
+  $aboutSectionTextDefaultDede .= "Bergen für Ihr Wohlbefinden und Ihre Gesundheit. Das Bed&amp;Breakfast Panorama Lauenen ";
+  $aboutSectionTextDefaultDede .= "bietet Ihnen alles, was Sie brauchen, um die Schweizer Alpen zu genießen. Die Sommer-wanderwege, ";
+  $aboutSectionTextDefaultDede .= "der idyllische Lauenensee, die Skipisten und Langlaufloipe sowie der prominente ";
+  $aboutSectionTextDefaultDede .= "Kurort Gstaad sind nur wenige Minuten vom B&amp;B Panorama entfernt. Das Richtige für eine ";
+  $aboutSectionTextDefaultDede .= "Alltagsevasion, Erholung und Gedankenauffrischung garantiert zu allen Jahreszeiten!";
   
   $aboutSectionTextDefaultDadk = "Velkommen til vores hjemmeside! Der er intet bedre end en aktiv hvile for dit velbefindende og ";
   $aboutSectionTextDefaultDadk .= "for dit helbred. Panorama Lauenen Bed and Breakfast tilbyder dig alt hvad du behøver for ";
