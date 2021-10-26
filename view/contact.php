@@ -45,7 +45,7 @@
       title: "Panorama B&B, Lauenen"
     });
   }
-  //google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <section id="contact_section">
   <div class="container">
