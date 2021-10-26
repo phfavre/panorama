@@ -48,7 +48,7 @@
 
 <section id="gallery_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div id="gallery_section_div">
         <div class="section_title capLetters">
           <?php echo printValueGivenKey($gallerySectionText, 'gallerySectionGalleryTitle', 'Gallery'); ?>

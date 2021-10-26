@@ -61,7 +61,7 @@
 
 <section id="footer_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div id="footer_section_div">
         <div class="section_content">
           <div class="row">
@@ -126,6 +126,7 @@
                   <ul>
                     <li><a href="mailto:info@panorama-lauenen.ch">info@panorama-lauenen.ch</a></li>
                     <li>Tel: +41 33 765 31 69</li>
+                    <li>& +41 79 347 90 43</li>
                     <li>Lauenenstrasse 5</li>
                     <li>3782 Lauenen b. Gstaad</li>
                     <li>Switzerland</li>
@@ -140,9 +141,9 @@
                   <div class="footer_icon" id="footer_tripadvisor_icon">
                     <a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g1157721-d3806523-Reviews-Pension_Panorama_B_B-Lauenen_Bernese_Oberland_Canton_of_Bern.html"><img src="img/tripadvisor_icon.png" width="35" height="35"></a>
                   </div>
-                  <div class="footer_icon" id="footer_booking_icon">
+                  <!--<div class="footer_icon" id="footer_booking_icon">
                     <a target="_blank" href="http://www.booking.com/Share-UJPgf1"><img src="img/booking_icon.png" width="35" height="35"></a>
-                  </div>
+                  </div>-->
                   <div class="footer_icon" id="footer_googleplus_icon">
                     <a target="_blank" href="https://goo.gl/maps/iLBDQ6hqFH92"><img src="img/googleplus_icon.png" width="35" height="35"></a>
                   </div>
@@ -157,7 +158,7 @@
 </section>
 <div id="footer_footer">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div id="footer_footer_text">
         &copy; 2020 - Website Designed by <a href="mailto:phf.webcreation@gmail.com">PHF Web Creation</a>
       </div>

@@ -9,8 +9,8 @@
         "roomviewRoomPrice" => "CHF 55", 
         "roomviewAccomodates" => "Accomodates: 2", 
         "roomviewBeds" => "Beds: 2 Singles", 
-        "roomviewCheckIn" => "Check-In: 2:00PM", 
-        "roomviewCheckOut" => "Check-Out: 12:00PM"
+        "roomviewCheckIn" => "Check-In: 3:30PM", 
+        "roomviewCheckOut" => "Check-Out: 10:30AM"
     ), 
     "wildhorn" => array(
         "roomviewRoomName" => "Wildhorn", 
@@ -20,8 +20,8 @@
         "roomviewRoomPrice" => "CHF 55", 
         "roomviewAccomodates" => "Accomodates: 2", 
         "roomviewBeds" => "Beds: 2 Singles", 
-        "roomviewCheckIn" => "Check-In: 2:00PM", 
-        "roomviewCheckOut" => "Check-Out: 12:00PM"
+        "roomviewCheckIn" => "Check-In: 3:30PM", 
+        "roomviewCheckOut" => "Check-Out: 10:30AM"
     ), 
     "geltenhorn" => array(
         "roomviewRoomName" => "Geltenhorn", 
@@ -31,8 +31,8 @@
         "roomviewRoomPrice" => "CHF 55", 
         "roomviewAccomodates" => "Accomodates: 2", 
         "roomviewBeds" => "Beds: 2 Singles", 
-        "roomviewCheckIn" => "Check-In: 2:00PM", 
-        "roomviewCheckOut" => "Check-Out: 12:00PM"
+        "roomviewCheckIn" => "Check-In: 3:30PM", 
+        "roomviewCheckOut" => "Check-Out: 10:30AM"
     ), 
     "niesenhorn" => array(
         "roomviewRoomName" => "Niesenhorn", 
@@ -42,8 +42,8 @@
         "roomviewRoomPrice" => "CHF 55", 
         "roomviewAccomodates" => "Accomodates: 2", 
         "roomviewBeds" => "Beds: 2 Singles", 
-        "roomviewCheckIn" => "Check-In: 2:00PM", 
-        "roomviewCheckOut" => "Check-Out: 12:00PM"
+        "roomviewCheckIn" => "Check-In: 3:30PM", 
+        "roomviewCheckOut" => "Check-Out: 10:30AM"
     ), 
     "wasserngrat" => array(
         "roomviewRoomName" => "Wasserngrat", 
@@ -53,8 +53,8 @@
         "roomviewRoomPrice" => "CHF 55", 
         "roomviewAccomodates" => "Accomodates: 2", 
         "roomviewBeds" => "Beds: 2 Singles", 
-        "roomviewCheckIn" => "Check-In: 2:00PM", 
-        "roomviewCheckOut" => "Check-Out: 12:00PM"
+        "roomviewCheckIn" => "Check-In: 3:30PM", 
+        "roomviewCheckOut" => "Check-Out: 10:30AM"
     ), 
     "gride" => array(
         "roomviewRoomName" => "Gride", 
@@ -64,8 +64,8 @@
         "roomviewRoomPrice" => "CHF 55", 
         "roomviewAccomodates" => "Accomodates: 2", 
         "roomviewBeds" => "Beds: 2 Singles", 
-        "roomviewCheckIn" => "Check-In: 2:00PM", 
-        "roomviewCheckOut" => "Check-Out: 12:00PM"
+        "roomviewCheckIn" => "Check-In: 3:30PM", 
+        "roomviewCheckOut" => "Check-Out: 10:30AM"
     ), 
     "rothorn" => array(
         "roomviewRoomName" => "Rothorn", 
@@ -75,8 +75,19 @@
         "roomviewRoomPrice" => "CHF 55", 
         "roomviewAccomodates" => "Accomodates: 2", 
         "roomviewBeds" => "Beds: 2 Singles", 
-        "roomviewCheckIn" => "Check-In: 2:00PM", 
-        "roomviewCheckOut" => "Check-Out: 12:00PM"
+        "roomviewCheckIn" => "Check-In: 3:30PM", 
+        "roomviewCheckOut" => "Check-Out: 10:30AM"
+    ), 
+    "mutthorn" => array(
+      "roomviewRoomName" => "Studio Mutthorn", 
+      "roomviewImg1Path" => "img/mutthorn_01.jpg", 
+      "roomviewImg2Path" => "img/mutthorn_02.jpg", 
+      "roomviewImg3Path" => "img/mutthorn_03.jpg", 
+      "roomviewRoomPrice" => "CHF 55", 
+      "roomviewAccomodates" => "Accomodates: 2", 
+      "roomviewBeds" => "Beds: 2 Singles", 
+      "roomviewCheckIn" => "Check-In: 3:30PM", 
+      "roomviewCheckOut" => "Check-Out: 10:30AM"
     ), 
     "generic" => array(
         "roomviewRoomPriceFrom" => "From", 
@@ -104,8 +115,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Capacité: 2 personnes", 
             "roomviewBeds" => "Lits: 2 lits simples", 
-            "roomviewCheckIn" => "Check-In: 14:00 heures", 
-            "roomviewCheckOut" => "Check-Out: 12:00 heures"
+            "roomviewCheckIn" => "Check-In: 15:30 heures", 
+            "roomviewCheckOut" => "Check-Out: 10:30 heures"
         ), 
         "wildhorn" => array(
             "roomviewRoomName" => "Wildhorn", 
@@ -115,8 +126,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Capacité: 2 personnes", 
             "roomviewBeds" => "Lits: 2 lits simples", 
-            "roomviewCheckIn" => "Check-In: 14:00 heures", 
-            "roomviewCheckOut" => "Check-Out: 12:00 heures"
+            "roomviewCheckIn" => "Check-In: 15:30 heures", 
+            "roomviewCheckOut" => "Check-Out: 10:30 heures"
         ), 
         "geltenhorn" => array(
             "roomviewRoomName" => "Geltenhorn", 
@@ -126,8 +137,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Capacité: 2 personnes", 
             "roomviewBeds" => "Lits: 2 lits simples", 
-            "roomviewCheckIn" => "Check-In: 14:00 heures", 
-            "roomviewCheckOut" => "Check-Out: 12:00 heures"
+            "roomviewCheckIn" => "Check-In: 15:30 heures", 
+            "roomviewCheckOut" => "Check-Out: 10:30 heures"
         ), 
         "niesenhorn" => array(
             "roomviewRoomName" => "Niesenhorn", 
@@ -137,8 +148,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Capacité: 2 personnes", 
             "roomviewBeds" => "Lits: 2 lits simples", 
-            "roomviewCheckIn" => "Check-In: 14:00 heures", 
-            "roomviewCheckOut" => "Check-Out: 12:00 heures"
+            "roomviewCheckIn" => "Check-In: 15:30 heures", 
+            "roomviewCheckOut" => "Check-Out: 10:30 heures"
         ), 
         "wasserngrat" => array(
             "roomviewRoomName" => "Wasserngrat", 
@@ -148,8 +159,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Capacité: 2 personnes", 
             "roomviewBeds" => "Lits: 2 lits simples", 
-            "roomviewCheckIn" => "Check-In: 14:00 heures", 
-            "roomviewCheckOut" => "Check-Out: 12:00 heures"
+            "roomviewCheckIn" => "Check-In: 15:30 heures", 
+            "roomviewCheckOut" => "Check-Out: 10:30 heures"
         ), 
         "gride" => array(
             "roomviewRoomName" => "Gride", 
@@ -159,8 +170,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Capacité: 2 personnes", 
             "roomviewBeds" => "Lits: 2 lits simples", 
-            "roomviewCheckIn" => "Check-In: 14:00 heures", 
-            "roomviewCheckOut" => "Check-Out: 12:00 heures"
+            "roomviewCheckIn" => "Check-In: 15:30 heures", 
+            "roomviewCheckOut" => "Check-Out: 10:30 heures"
         ), 
         "rothorn" => array(
             "roomviewRoomName" => "Rothorn", 
@@ -170,8 +181,19 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Capacité: 2 personnes", 
             "roomviewBeds" => "Lits: 2 lits simples", 
-            "roomviewCheckIn" => "Check-In: 14:00 heures", 
-            "roomviewCheckOut" => "Check-Out: 12:00 heures"
+            "roomviewCheckIn" => "Check-In: 15:30 heures", 
+            "roomviewCheckOut" => "Check-Out: 10:30 heures"
+        ), 
+        "mutthorn" => array(
+          "roomviewRoomName" => "Studio Mutthorn", 
+          "roomviewImg1Path" => "img/mutthorn_01.jpg", 
+          "roomviewImg2Path" => "img/mutthorn_02.jpg", 
+          "roomviewImg3Path" => "img/mutthorn_03.jpg", 
+          "roomviewRoomPrice" => "CHF 55", 
+          "roomviewAccomodates" => "Capacité: 2 personnes", 
+          "roomviewBeds" => "Lits: 2 lits simples", 
+          "roomviewCheckIn" => "Check-In: 15:30 heures", 
+          "roomviewCheckOut" => "Check-Out: 10:30 heures"
         ), 
         "generic" => array(
             "roomviewRoomPriceFrom" => "A partir de", 
@@ -195,8 +217,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Platz für: 2 Personen", 
             "roomviewBeds" => "Betten: 2 Einzelbetten", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
         ), 
         "wildhorn" => array(
             "roomviewRoomName" => "Wildhorn", 
@@ -206,8 +228,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Platz für: 2 Personen", 
             "roomviewBeds" => "Betten: 2 Einzelbetten", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
         ), 
         "geltenhorn" => array(
             "roomviewRoomName" => "Geltenhorn", 
@@ -217,8 +239,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Platz für: 2 Personen", 
             "roomviewBeds" => "Betten: 2 Einzelbetten", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
         ), 
         "niesenhorn" => array(
             "roomviewRoomName" => "Niesenhorn", 
@@ -228,8 +250,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Platz für: 2 Personen", 
             "roomviewBeds" => "Betten: 2 Einzelbetten", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
         ), 
         "wasserngrat" => array(
             "roomviewRoomName" => "Wasserngrat", 
@@ -239,8 +261,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Platz für: 2 Personen", 
             "roomviewBeds" => "Betten: 2 Einzelbetten", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
         ), 
         "gride" => array(
             "roomviewRoomName" => "Gride", 
@@ -250,8 +272,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Platz für: 2 Personen", 
             "roomviewBeds" => "Betten: 2 Einzelbetten", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
         ), 
         "rothorn" => array(
             "roomviewRoomName" => "Rothorn", 
@@ -261,9 +283,20 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Platz für: 2 Personen", 
             "roomviewBeds" => "Betten: 2 Einzelbetten", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+            "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
         ), 
+        "mutthorn" => array(
+          "roomviewRoomName" => "Studio Mutthorn", 
+          "roomviewImg1Path" => "img/mutthorn_01.jpg", 
+          "roomviewImg2Path" => "img/mutthorn_02.jpg", 
+          "roomviewImg3Path" => "img/mutthorn_03.jpg", 
+          "roomviewRoomPrice" => "CHF 55", 
+          "roomviewAccomodates" => "Platz für: 2 Personen", 
+          "roomviewBeds" => "Betten: 2 Einzelbetten", 
+          "roomviewCheckIn" => "Check-In: 15:30 Uhr", 
+          "roomviewCheckOut" => "Check-Out: 10:30 Uhr"
+      ), 
         "generic" => array(
             "roomviewRoomPriceFrom" => "Von", 
             "roomviewPerNight" => "Pro Nacht", 
@@ -286,8 +319,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Plads til: 2 personer", 
             "roomviewBeds" => "Senge: 2 enkeltsenge", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30", 
+            "roomviewCheckOut" => "Check-Out: 10:30"
         ), 
         "wildhorn" => array(
             "roomviewRoomName" => "Wildhorn", 
@@ -297,8 +330,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Plads til: 2 personer", 
             "roomviewBeds" => "Senge: 2 enkeltsenge", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30", 
+            "roomviewCheckOut" => "Check-Out: 10:30"
         ), 
         "geltenhorn" => array(
             "roomviewRoomName" => "Geltenhorn", 
@@ -308,8 +341,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Plads til: 2 personer", 
             "roomviewBeds" => "Senge: 2 enkeltsenge", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30", 
+            "roomviewCheckOut" => "Check-Out: 10:30"
         ), 
         "niesenhorn" => array(
             "roomviewRoomName" => "Niesenhorn", 
@@ -319,8 +352,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Plads til: 2 personer", 
             "roomviewBeds" => "Senge: 2 enkeltsenge", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30", 
+            "roomviewCheckOut" => "Check-Out: 10:30"
         ), 
         "wasserngrat" => array(
             "roomviewRoomName" => "Wasserngrat", 
@@ -330,8 +363,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Plads til: 2 personer", 
             "roomviewBeds" => "Senge: 2 enkeltsenge", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30", 
+            "roomviewCheckOut" => "Check-Out: 10:30"
         ), 
         "gride" => array(
             "roomviewRoomName" => "Gride", 
@@ -341,8 +374,8 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Plads til: 2 personer", 
             "roomviewBeds" => "Senge: 2 enkeltsenge", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30", 
+            "roomviewCheckOut" => "Check-Out: 10:30"
         ), 
         "rothorn" => array(
             "roomviewRoomName" => "Rothorn", 
@@ -352,8 +385,19 @@
             "roomviewRoomPrice" => "CHF 55", 
             "roomviewAccomodates" => "Plads til: 2 personer", 
             "roomviewBeds" => "Senge: 2 enkeltsenge", 
-            "roomviewCheckIn" => "Check-In: 14:00 Uhr", 
-            "roomviewCheckOut" => "Check-Out: 12:00 Uhr"
+            "roomviewCheckIn" => "Check-In: 15:30", 
+            "roomviewCheckOut" => "Check-Out: 10:30"
+        ), 
+        "mutthorn" => array(
+          "roomviewRoomName" => "Studio Mutthorn", 
+          "roomviewImg1Path" => "img/mutthorn_01.jpg", 
+          "roomviewImg2Path" => "img/mutthorn_02.jpg", 
+          "roomviewImg3Path" => "img/mutthorn_03.jpg", 
+          "roomviewRoomPrice" => "CHF 55", 
+          "roomviewAccomodates" => "Plads til: 2 personer", 
+          "roomviewBeds" => "Senge: 2 enkeltsenge", 
+          "roomviewCheckIn" => "Check-In: 15:30", 
+          "roomviewCheckOut" => "Check-Out: 10:30"
         ), 
         "generic" => array(
             "roomviewRoomPriceFrom" => "Fra", 
@@ -370,11 +414,11 @@
 
 <section id="roompage_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div class="roompage_title_div">
         <div class="row">
-          <div class="col-md-1 roompage_back"><a href="./ourrooms?lang=<?php echo $roomviewLang; ?>"><img id="roompage_back_icon" src="img/left-arrow.png" width="25px"></a></div>
-          <div class="col-md-5 roompage_roomname">
+          <div class="col-xs-1 roompage_back"><a href="./ourrooms?lang=<?php echo $roomviewLang; ?>"><img id="roompage_back_icon" src="img/left-arrow.png" width="25px"></a></div>
+          <div class="col-xs-5 roompage_roomname">
             <?php echo printValueGivenKey2D($roomviewText, $roomName, 'roomviewRoomName', 'Not Defined'); ?>
           </div>
         </div>

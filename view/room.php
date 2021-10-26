@@ -1,19 +1,19 @@
 <?php
-  $roomsSectionTextDefault = "The Panorama Lauenen B&amp;B has a total of 7 double rooms. One double room has a ";
-  $roomsSectionTextDefault .= "balcony with a fantastic view on the Swiss Alps. On each floor there is a bathroom, which is shared ";
-  $roomsSectionTextDefault .= "by the guests.";
+  $roomsSectionTextDefault = "The Panorama Lauenen B&amp;B has a total of 4 double rooms. Two double rooms have a ";
+  $roomsSectionTextDefault .= "balcony with a fantastic view on the Swiss Alps. Two bathrooms with shower and WC are shared ";
+  $roomsSectionTextDefault .= "among the guests.";
   
-  $roomsSectionTextDefaultFrfr = "Le B&amp;B Panorama Lauenen dispose d'un total de 7 chambres doubles. Une chambre double ";
-  $roomsSectionTextDefaultFrfr .= "est dotée d'un balcon offrant une vue fantastique sur les Alpes Suisses. Il y'a également une salle d'eau ";
-  $roomsSectionTextDefaultFrfr .= "partagée par étage.";
+  $roomsSectionTextDefaultFrfr = "Le B&amp;B Panorama Lauenen dispose d'un total de 4 chambres doubles. Deux chambres doubles ";
+  $roomsSectionTextDefaultFrfr .= "sont dotées d'un balcon offrant une vue fantastique sur les Alpes Suisses. Deux salles d'eau ";
+  $roomsSectionTextDefaultFrfr .= "sont partagée par les clients.";
   
-  $roomsSectionTextDefaultDede = "Das Panorama Lauenen B&amp;B verfügt über 7 Doppelzimmer. Ein Zimmer mit Balkon das einen ";
+  $roomsSectionTextDefaultDede = "Das Panorama Lauenen B&amp;B verfügt über 4 Doppelzimmer. Zwei Doppelzimmer haben einen Balkon welche einen ";
   $roomsSectionTextDefaultDede .= "fantastischen Blick auf die Alpen offeriert. ";
-  $roomsSectionTextDefaultDede .= "Auf jeder Etage befindet sich ein Badezimmer, das sich die Gäste teilen.";
+  $roomsSectionTextDefaultDede .= "Zwei Badezimmer mit Dusche und WC werden von den Gästen geteilt.";
   
-  $roomsSectionTextDefaultDadk = "Panorama Lauenen B&amp;B har i alt 7 dobbeltværelser. Et dobbeltværelse har balkon ";
-  $roomsSectionTextDefaultDadk .= "med en fantastisk udsigt over de schweiziske alper. Der er også 2 ";
-  $roomsSectionTextDefaultDadk .= "badeværelser, der deles blandt gæsterne.";
+  $roomsSectionTextDefaultDadk = "Panorama Lauenen B&amp;B har i alt 4 dobbeltværelser. To dobbeltværelser har balkon ";
+  $roomsSectionTextDefaultDadk .= "med en fantastisk udsigt over de schweiziske alper. ";
+  $roomsSectionTextDefaultDadk .= "To badeværelser med bruser og toilet deles mellem gæsterne.";
   
   $roomsSectionText = array(
     "roomsSectionRooms" => "Our Rooms", 
@@ -57,7 +57,7 @@
 
 <section id="room_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div class="section_content">
         <div id="room_section_div">
           <div id="room_img_div" class="cd-fixed-bg cd-bg-1 background">

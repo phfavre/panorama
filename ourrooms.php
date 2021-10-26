@@ -178,7 +178,7 @@
 	
 	<section id="ourrooms_section">
       <div class="container">
-        <div class="col-md-14">
+        <div class="col-md-12">
           <div id="ourrooms_title_div">
             <div id="ourrooms_title">
               <?php echo printValueGivenKey($ourRoomText, 'ourRoomTitle', 'Our Rooms'); ?>
@@ -340,23 +340,23 @@
             </div>
           </div>
 
-          <div class="ourrooms_room_div">
+          <!--<div class="ourrooms_room_div">
             <div class="row">
               <div class="col-md-3">
-                <div class="ourrooms_room_img"><a href="./room?roomname=wasserngrat&lang=<?php echo $ourRoomLang; ?>"><img src="img/wasserngrat_01.jpg" width="100%"></a></div>
+                <div class="ourrooms_room_img"><a href="./room?roomname=wasserngrat&lang=<?php //echo $ourRoomLang; ?>"><img src="img/wasserngrat_01.jpg" width="100%"></a></div>
               </div>
               <div class="col-md-6">
                 <div class="ourrooms_room_info">
                   <div class="ourrooms_room_name boldLetters">Wasserngrat</div>
                   <div class="ourrooms_room_description">
-                    <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom5Info', 'Nice room without balcony'); ?>
+                    <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom5Info', 'Nice room without balcony'); ?>
                     <br><br>
                     <ul>
                       <li>
-                        <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom5Bed', 'Beds: 2 single beds'); ?>
+                        <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom5Bed', 'Beds: 2 single beds'); ?>
                       </li>
                       <li>
-                        <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom5Occupancy', 'Max: 2 guests'); ?>
+                        <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom5Occupancy', 'Max: 2 guests'); ?>
                       </li>
                     </ul>
                   </div>
@@ -366,12 +366,12 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">
-                    <?php echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
+                    <?php //echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
                   <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
-                    <a href="./room?roomname=wasserngrat&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
-                      <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
+                    <a href="./room?roomname=wasserngrat&lang=<?php //echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
+                      <?php //echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
                     </a>
                   </div>
                 </div>
@@ -382,20 +382,20 @@
           <div class="ourrooms_room_div">
             <div class="row">
               <div class="col-md-3">
-                <div class="ourrooms_room_img"><a href="./room?roomname=gride&lang=<?php echo $ourRoomLang; ?>"><img src="img/gride_01.jpg" width="100%"></a></div>
+                <div class="ourrooms_room_img"><a href="./room?roomname=gride&lang=<?php //echo $ourRoomLang; ?>"><img src="img/gride_01.jpg" width="100%"></a></div>
               </div>
               <div class="col-md-6">
                 <div class="ourrooms_room_info">
                   <div class="ourrooms_room_name boldLetters">Gride</div>
                   <div class="ourrooms_room_description">
-                    <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom6Info', 'Nice room without balcony'); ?>
+                    <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom6Info', 'Nice room without balcony'); ?>
                     <br><br>
                     <ul>
                       <li>
-                        <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom6Bed', 'Beds: 2 single beds'); ?>
+                        <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom6Bed', 'Beds: 2 single beds'); ?>
                       </li>
                       <li>
-                        <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom6Occupancy', 'Max: 2 guests'); ?>
+                        <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom6Occupancy', 'Max: 2 guests'); ?>
                       </li>
                     </ul>
                   </div>
@@ -405,12 +405,12 @@
               <div class="col-md-2">
                 <div class="ourrooms_room_price">
                   <div class="ourrooms_room_price_from">
-                    <?php echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
+                    <?php //echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
                   <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
-                    <a href="./room?roomname=gride&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
-                      <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
+                    <a href="./room?roomname=gride&lang=<?php //echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
+                      <?php //echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
                     </a>
                   </div>
                 </div>
@@ -421,11 +421,50 @@
           <div class="ourrooms_room_div">
             <div class="row">
               <div class="col-md-3">
-                <div class="ourrooms_room_img"><a href="./room?roomname=rothorn&lang=<?php echo $ourRoomLang; ?>"><img src="img/rothorn_01.jpg" width="100%"></a></div>
+                <div class="ourrooms_room_img"><a href="./room?roomname=rothorn&lang=<?php //echo $ourRoomLang; ?>"><img src="img/rothorn_01.jpg" width="100%"></a></div>
               </div>
               <div class="col-md-6">
                 <div class="ourrooms_room_info">
                   <div class="ourrooms_room_name boldLetters">Rothorn</div>
+                  <div class="ourrooms_room_description">
+                    <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom7Info', 'Nice room without balcony'); ?>
+                    <br><br>
+                    <ul>
+                      <li>
+                        <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom7Bed', 'Beds: 2 single beds'); ?>
+                      </li>
+                      <li>
+                        <?php //echo printValueGivenKey($ourRoomText, 'ourRoomRoom6Occupancy', 'Max: 2 guests'); ?>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="ourrooms_room_items"><img src="img/wifi_icon.png" width="25px"></div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="ourrooms_room_price">
+                  <div class="ourrooms_room_price_from">
+                    <?php //echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
+                  </div>
+                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_more">
+                    <a href="./room?roomname=rothorn&lang=<?php //echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
+                      <?php //echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="ourrooms_room_div">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="ourrooms_room_img"><a href="./room?roomname=mutthorn&lang=<?php echo $ourRoomLang; ?>"><img src="img/mutthorn_01.jpg" width="100%"></a></div>
+              </div>
+              <div class="col-md-6">
+                <div class="ourrooms_room_info">
+                  <div class="ourrooms_room_name boldLetters">Studio Mutthorn</div>
                   <div class="ourrooms_room_description">
                     <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom7Info', 'Nice room without balcony'); ?>
                     <br><br>
@@ -448,7 +487,7 @@
                   </div>
                   <div class="ourrooms_room_price_fare">CHF 55</div>
                   <div class="ourrooms_room_price_more">
-                    <a href="./room?roomname=rothorn&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
+                    <a href="./room?roomname=mutthorn&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
                     </a>
                   </div>

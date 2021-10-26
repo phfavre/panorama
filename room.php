@@ -15,6 +15,7 @@
     "roomIfOnePerson" => "if 1 person", 
     "roomIfTwoPerson" => "if 2 persons", 
     "roomAdditionalTax" => "Additional tax of CHF 2 per person will be added to the prices above.", 
+    "roomCancelInfo" => "CONDITIONS<br>With your reservation you accept the following conditions. When canceling a reservation or booking, we charge the following cancellation fees:<br>From 10 days before the start of the holiday, 80% of the rental price.<br>Failure to arrive at the resort and early departure, 100% of the rental price.",
     "roomContactUs" => "Please contact us for group fare."
   );
 
@@ -38,6 +39,7 @@
         "roomIfOnePerson" => "si 1 personne", 
         "roomIfTwoPerson" => "si 2 personnes", 
         "roomAdditionalTax" => "Une taxe supplémentaire de CHF 2 par personne sera ajoutée au prix ci-dessus.", 
+        "roomCancelInfo" => "CONDITIONS<br>Avec votre réservation, vous acceptez les conditions suivantes. Lors de l'annulation d'une réservation ou d'une réservation, nous facturons les frais d'annulation suivants:<br>A partir de 10 jours avant le début du séjour, 80% du prix de la location.<br>Défaut d'arrivée à la station et départ anticipé, 100% du prix de la location.",
         "roomContactUs" => "Veuillez nous contacter concernant les prix de groupe."
       );
     }
@@ -57,6 +59,7 @@
         "roomIfOnePerson" => "für 1 Person", 
         "roomIfTwoPerson" => "für 2 Personen", 
         "roomAdditionalTax" => "Zu den oben genannten Preisen wird eine zusätzliche Steuer von CHF 2 pro Person erhoben.", 
+        "roomCancelInfo" => "AGB<br>Mit Ihrer Reservation akzeptieren Sie folgende Bestimmungen. Bei Annullierung einer Reservation oder einer Buchung verrechnen wir nachfolgende Annullierungsgebühren:<br>Ab 10 Tage vor Ferienbeginn 80% des Mietpreises.<br>Nichteintreffen am Ferienort sowie frühzeitiger Abreise. Nicht Anreisen 100% des Mietpreises.",
         "roomContactUs" => "Bitte kontaktieren Sie uns für Gruppenpreise."
       );
     }
@@ -76,6 +79,7 @@
         "roomIfOnePerson" => "til 1 person", 
         "roomIfTwoPerson" => "til 2 personer", 
         "roomAdditionalTax" => "Ekstra skat på 2 CHF pr. Person tilføjes ovenstående priser.", 
+        "roomCancelInfo" => "BETINGELSER<br>Med din reservation accepterer du følgende betingelser. Ved annullering af en reservation eller reservation opkræver vi følgende afbestillingsgebyrer:<br>Fra 10 dage før feriens start 80% af lejeprisen.<br>Manglende ankomst til resortet og tidlig afgang, 100% af lejeprisen.",
         "roomContactUs" => "Kontakt os venligst for gruppepris."
       );
     }
@@ -135,7 +139,7 @@
         $roomName = strtolower($_GET["roomname"]);
         $roomNameSet = array(
           "spitzhorn", "wildhorn", "geltenhorn", 
-          "niesenhorn", "wasserngrat", "gride", "rothorn"
+          "niesenhorn", "wasserngrat", "gride", "rothorn", "mutthorn"
         );
         if(in_array($roomName, $roomNameSet))
         {
@@ -293,7 +297,9 @@
             <br>
             <p>
               <?php echo printValueGivenKey($roomText, 'roomAdditionalTax', 'Additional tax of CHF 2 per person will be added to the prices above.'); ?>
-              <br> 
+              <br><br>
+              <?php echo printValueGivenKey($roomText, 'roomCancelInfo', 'Please contact us for group fare.'); ?>
+              <br><br>
               <?php echo printValueGivenKey($roomText, 'roomContactUs', 'Please contact us for group fare.'); ?>
             </p>
           </div>

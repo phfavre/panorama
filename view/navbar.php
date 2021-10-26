@@ -61,7 +61,7 @@
 
 <div class="navbar" id="my_navbar">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div class="navbar_list">
         <ul class="topnav" id="myTopnav">
           <li class="nav_dropdown_el">

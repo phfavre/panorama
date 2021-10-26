@@ -116,11 +116,11 @@
 
     <section id="bookinfo_section">
       <div class="container">
-        <div class="col-md-14">
+        <div class="col-md-12">
           <div class="bookinfo_title_div">
             <div class="row">
-              <div class="col-md-1 bookinfo_back"><a href="./room?roomname=<?php echo($_GET["roomname"]); ?>&lang=<?php echo $bookInfoLang; ?>"><img id="bookinfo_back_icon" src="img/left-arrow.png" width="25px"></a></div>
-              <div class="col-md-5 bookinfo_title">
+              <div class="col-xs-1 bookinfo_back"><a href="./room?roomname=<?php echo($_GET["roomname"]); ?>&lang=<?php echo $bookInfoLang; ?>"><img id="bookinfo_back_icon" src="img/left-arrow.png" width="25px"></a></div>
+              <div class="col-xs-5 bookinfo_title">
                 <?php echo printValueGivenKey($bookInfoText, 'bookInfoTitle', 'Book Info'); ?>
               </div>
             </div>
@@ -132,9 +132,9 @@
               <li>
                 <?php echo printValueGivenKey($bookInfoText, 'bookInfoOption1', 'Contact us directly using the contact information below. We would be glad to take your order!'); ?>
               </li>
-              <li>
+              <!--<li>
                 <?php echo printValueGivenKey($bookInfoText, 'bookInfoOption2', 'Book through Booking.com'); ?>&nbsp;<a target="_blank" href="http://www.booking.com/Share-UJPgf1"><?php echo printValueGivenKey($bookInfoText, 'bookInfoHere', 'here'); ?></a>
-              </li>
+              </li>-->
               <li>
                 <?php echo printValueGivenKey($bookInfoText, 'bookInfoOption3', 'Book through Tripadvisor.com'); ?>&nbsp;<a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g1157721-d3806523-Reviews-Pension_Panorama_B_B-Lauenen_Bernese_Oberland_Canton_of_Bern.html"><?php echo printValueGivenKey($bookInfoText, 'bookInfoHere', 'here'); ?></a>
               </li>

@@ -1,9 +1,9 @@
 <?php
   $guestreviewSectionText = array(
     "guestreviewSectionGuestReviewTitle" => "Guests Reviews", 
-    "guestreviewSectionGuestReview1" => '"Host and hostess are super! Very friendly and very helpful. The studio was large and very comfortable. The entire house is charming and very sweetly decorated."<br>(Suzann, Booking.com)', 
-    "guestreviewSectionGuestReview2" => '"Excellent view and excellent hosts!"<br>(Ramya, Google Reviews)', 
-    "guestreviewSectionGuestReview3" => '"Staff are excellent and went out of their way to make sure I had a wonderful stay!"<br>(Jack, Booking.com)'
+    "guestreviewSectionGuestReview1" => '"Host and hostess are super! Very friendly and very helpful. The studio was large and very comfortable. The entire house is charming and very sweetly decorated."<br>(Suzann)', 
+    "guestreviewSectionGuestReview2" => '"Excellent view and excellent hosts!"<br>(Ramya)', 
+    "guestreviewSectionGuestReview3" => '"Staff are excellent and went out of their way to make sure I had a wonderful stay!"<br>(Jack)'
   );
 
   if(isset($_GET['lang']))
@@ -12,27 +12,27 @@
     {
       $guestreviewSectionText = array(
         "guestreviewSectionGuestReviewTitle" => "Ce que nos Hôtes pensent", 
-        "guestreviewSectionGuestReview1" => '"L\'emplacement est très palpitant y compris la vue géniale. L\'hôte et son mari sont adorables. Ils se mettent en quatre pour rendre votre séjour extrêmement confortable et inoubliable"<br>(Dominique, Booking.com)', 
-        "guestreviewSectionGuestReview2" => '"Intérieur accueillant, décoré avec goût, beaucoup de bois, équipements nouveaux. Couple propriétaire très sympa et accueillant"<br>(Jacqueline, Booking.com)', 
-        "guestreviewSectionGuestReview3" => '"Bon petit déjeuner, belle vue depuis la chambre, très propre"<br>(Marie, Booking.com)'
+        "guestreviewSectionGuestReview1" => '"L\'emplacement est très palpitant y compris la vue géniale. L\'hôte et son mari sont adorables. Ils se mettent en quatre pour rendre votre séjour extrêmement confortable et inoubliable"<br>(Dominique)', 
+        "guestreviewSectionGuestReview2" => '"Intérieur accueillant, décoré avec goût, beaucoup de bois, équipements nouveaux. Couple propriétaire très sympa et accueillant"<br>(Jacqueline)', 
+        "guestreviewSectionGuestReview3" => '"Bon petit déjeuner, belle vue depuis la chambre, très propre"<br>(Marie)'
       );
     }
     if(strtolower($_GET['lang']) == 'de-de')
     {
       $guestreviewSectionText = array(
         "guestreviewSectionGuestReviewTitle" => "Gästebewertungen", 
-        "guestreviewSectionGuestReview1" => '"Gastgeber und Gastgeberin sind super! Sehr freundlich und sehr hilfsbereit. Das Studio war groß und sehr komfortabel. Das gesamte Haus ist charmant und sehr liebevoll eingerichtet."<br>(Suzann, übersetzt von Booking.com)', 
-        "guestreviewSectionGuestReview2" => '"Hervorragende Aussicht und ausgezeichnete Gastgeber!"<br>(Jacqueline, übersetzt von Booking.com)', 
-        "guestreviewSectionGuestReview3" => '"Die Angestellten sind ausgezeichnet und haben alles getan, um sicherzustellen, dass ich einen wundervollen Aufenthalt hatte!"<br>(Marie, übersetzt von Booking.com)'
+        "guestreviewSectionGuestReview1" => '"Gastgeber und Gastgeberin sind super! Sehr freundlich und sehr hilfsbereit. Das Studio war groß und sehr komfortabel. Das gesamte Haus ist charmant und sehr liebevoll eingerichtet."<br>(Suzann)', 
+        "guestreviewSectionGuestReview2" => '"Hervorragende Aussicht und ausgezeichnete Gastgeber!"<br>(Jacqueline)', 
+        "guestreviewSectionGuestReview3" => '"Die Angestellten sind ausgezeichnet und haben alles getan, um sicherzustellen, dass ich einen wundervollen Aufenthalt hatte!"<br>(Marie)'
       );
     }
     if(strtolower($_GET['lang']) == 'da-dk')
     {
       $guestreviewSectionText = array(
         "guestreviewSectionGuestReviewTitle" => "Gæsteanmeldelser", 
-        "guestreviewSectionGuestReview1" => '"Vært og værtinde er super! Meget venlige og meget hjælpsomme. Studiet var stort og meget behageligt. Hele huset er charmerende og meget sødt dekoreret."<br>(Suzann, oversat af Booking.com)', 
-        "guestreviewSectionGuestReview2" => '"Fremragende udsigt og fremragende værter!"<br>(Jacqueline, oversat af Booking.com)', 
-        "guestreviewSectionGuestReview3" => '"Personalet er fremragende og gik ud af deres måde at sikre, at jeg havde et vidunderligt ophold!"<br>(Marie, oversat af Booking.com)'
+        "guestreviewSectionGuestReview1" => '"Vært og værtinde er super! Meget venlige og meget hjælpsomme. Studiet var stort og meget behageligt. Hele huset er charmerende og meget sødt dekoreret."<br>(Suzann)', 
+        "guestreviewSectionGuestReview2" => '"Fremragende udsigt og fremragende værter!"<br>(Jacqueline)', 
+        "guestreviewSectionGuestReview3" => '"Personalet er fremragende og gik ud af deres måde at sikre, at jeg havde et vidunderligt ophold!"<br>(Marie)'
       );
     }
   }
@@ -40,7 +40,7 @@
 
 <section id="guestreview_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div class="section_content">
         <div id="guestreview_section_div">
           <div id="guestreview_img_div" class="cd-fixed-bg cd-bg-1 background">

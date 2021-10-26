@@ -59,7 +59,7 @@
 
 <section id="about_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div id="about_section_div">
         <div class="section_title capLetters" id="about_title_div">
           <?php echo printValueGivenKey($aboutSectionText, 'aboutSectionAbout', $aboutSectionTextDefault); ?>

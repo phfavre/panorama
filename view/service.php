@@ -76,7 +76,7 @@
 
 <section id="service_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div id="service_section_div">
         <div class="section_title capLetters" id="service_title_div">
           <?php echo printValueGivenKey($serviceSectionText, 'serviceSectionServiceTitle', 'Our Services'); ?>

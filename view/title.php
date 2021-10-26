@@ -1,6 +1,6 @@
 <section id="title_section">
   <div class="container">
-    <div class="col-md-14">
+    <div class="col-md-12">
       <div id="title_text_div">
         <div id="title_text">Panorama Lauenen</div>
         <div id="sub_title_text" class="italicLetters">- Bed &amp; Breakfast -</div>
