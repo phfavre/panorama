@@ -23,7 +23,7 @@
     "ourRoomRoom6Info" => "Nice room without balcony", 
     "ourRoomRoom6Bed" => "Beds: 2 single beds", 
     "ourRoomRoom6Occupancy" => "Max: 2 guests", 
-    "ourRoomRoom7Info" => "Nice room without balcony", 
+    "ourRoomRoom7Info" => "Nice studio with balcony", 
     "ourRoomRoom7Bed" => "Beds: 2 single beds", 
     "ourRoomRoom7Occupancy" => "Max: 2 guests", 
     "ourRoomPriceFrom" => "From", 
@@ -58,7 +58,7 @@
         "ourRoomRoom6Info" => "Jolie chambre sans balcon", 
         "ourRoomRoom6Bed" => "Lits: 2 lits simples", 
         "ourRoomRoom6Occupancy" => "Max: 2 occupants", 
-        "ourRoomRoom7Info" => "Jolie chambre sans balcon", 
+        "ourRoomRoom7Info" => "Joli studio avec balcon", 
         "ourRoomRoom7Bed" => "Lits: 2 lits simples", 
         "ourRoomRoom7Occupancy" => "Max: 2 occupants", 
         "ourRoomPriceFrom" => "À partir de", 
@@ -89,7 +89,7 @@
         "ourRoomRoom6Info" => "Schönes Zimmer ohne Balkon", 
         "ourRoomRoom6Bed" => "Betten: 2 Einzelbetten", 
         "ourRoomRoom6Occupancy" => "Max: 2 Personen", 
-        "ourRoomRoom7Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom7Info" => "Schönes Studio mit Balkon", 
         "ourRoomRoom7Bed" => "Betten: 2 Einzelbetten", 
         "ourRoomRoom7Occupancy" => "Max: 2 Personen", 
         "ourRoomPriceFrom" => "Von", 
@@ -108,19 +108,19 @@
         "ourRoomRoom2Info" => "Værelse med balkon", 
         "ourRoomRoom2Bed" => "Senge: 2 Enkeltsenge", 
         "ourRoomRoom2Occupancy" => "Maksimum: 2 Personer", 
-        "ourRoomRoom3Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom3Info" => "Værelse uden balkon", 
         "ourRoomRoom3Bed" => "Senge: 2 Enkeltsenge", 
         "ourRoomRoom3Occupancy" => "Maksimum: 2 Personer", 
-        "ourRoomRoom4Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom4Info" => "Værelse uden balkon", 
         "ourRoomRoom4Bed" => "Senge: 2 Enkeltsenge", 
         "ourRoomRoom4Occupancy" => "Maksimum: 2 Personer", 
-        "ourRoomRoom5Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom5Info" => "Værelse uden balkon", 
         "ourRoomRoom5Bed" => "Senge: 2 Enkeltsenge", 
         "ourRoomRoom5Occupancy" => "Maksimum: 2 Personer", 
-        "ourRoomRoom6Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom6Info" => "Værelse uden balkon", 
         "ourRoomRoom6Bed" => "Senge: 2 Enkeltsenge", 
         "ourRoomRoom6Occupancy" => "Maksimum: 2 Personer", 
-        "ourRoomRoom7Info" => "Schönes Zimmer ohne Balkon", 
+        "ourRoomRoom7Info" => "Studio med Balkon", 
         "ourRoomRoom7Bed" => "Senge: 2 Enkeltsenge", 
         "ourRoomRoom7Occupancy" => "Maksimum: 2 Personer", 
         "ourRoomPriceFrom" => "Fra", 
@@ -212,7 +212,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 85</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=spitzhorn&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
@@ -251,7 +251,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 85</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=wildhorn&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
@@ -290,7 +290,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 85</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=geltenhorn&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
@@ -329,7 +329,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 85</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=niesenhorn&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
@@ -368,7 +368,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php //echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 85</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=wasserngrat&lang=<?php //echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php //echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
@@ -407,7 +407,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php //echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 85</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=gride&lang=<?php //echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php //echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
@@ -446,7 +446,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php //echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 85</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=rothorn&lang=<?php //echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php //echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>
@@ -466,7 +466,7 @@
                 <div class="ourrooms_room_info">
                   <div class="ourrooms_room_name boldLetters">Studio Mutthorn</div>
                   <div class="ourrooms_room_description">
-                    <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom7Info', 'Nice room without balcony'); ?>
+                    <?php echo printValueGivenKey($ourRoomText, 'ourRoomRoom7Info', 'Nice studio with balcony'); ?>
                     <br><br>
                     <ul>
                       <li>
@@ -485,7 +485,7 @@
                   <div class="ourrooms_room_price_from">
                     <?php echo printValueGivenKey($ourRoomText, 'ourRoomPriceFrom', 'From'); ?>
                   </div>
-                  <div class="ourrooms_room_price_fare">CHF 55</div>
+                  <div class="ourrooms_room_price_fare">CHF 110</div>
                   <div class="ourrooms_room_price_more">
                     <a href="./room?roomname=mutthorn&lang=<?php echo $ourRoomLang; ?>" type="button" class="btn room_more_info_button">
                       <?php echo printValueGivenKey($ourRoomText, 'ourRoomMoreInfo', 'More Info'); ?>

@@ -14,6 +14,7 @@
     "roomBreakfastIncl" => "breakfast included", 
     "roomIfOnePerson" => "if 1 person", 
     "roomIfTwoPerson" => "if 2 persons", 
+    "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (tax included)", 
     "roomAdditionalTax" => "Additional tax of CHF 2 per person will be added to the prices above.", 
     "roomCancelInfo" => "CONDITIONS<br>With your reservation you accept the following conditions. When canceling a reservation or booking, we charge the following cancellation fees:<br>From 10 days before the start of the holiday, 80% of the rental price.<br>Failure to arrive at the resort and early departure, 100% of the rental price.",
     "roomContactUs" => "Please contact us for group fare."
@@ -39,6 +40,7 @@
         "roomIfOnePerson" => "si 1 personne", 
         "roomIfTwoPerson" => "si 2 personnes", 
         "roomAdditionalTax" => "Une taxe supplémentaire de CHF 2 par personne sera ajoutée au prix ci-dessus.", 
+        "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Du 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (taxe inclue)", 
         "roomCancelInfo" => "CONDITIONS<br>Avec votre réservation, vous acceptez les conditions suivantes. Lors de l'annulation d'une réservation ou d'une réservation, nous facturons les frais d'annulation suivants:<br>A partir de 10 jours avant le début du séjour, 80% du prix de la location.<br>Défaut d'arrivée à la station et départ anticipé, 100% du prix de la location.",
         "roomContactUs" => "Veuillez nous contacter concernant les prix de groupe."
       );
@@ -58,7 +60,8 @@
         "roomBreakfastIncl" => "Frühstück inkludiert", 
         "roomIfOnePerson" => "für 1 Person", 
         "roomIfTwoPerson" => "für 2 Personen", 
-        "roomAdditionalTax" => "Zu den oben genannten Preisen wird eine zusätzliche Steuer von CHF 2 pro Person erhoben.", 
+        "roomAdditionalTax" => "Zu den oben genannten Preisen wird eine zusätzliche Steuer von CHF 2 pro Person erhoben.",
+        "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Von 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (inkl. Kurtaxe)",  
         "roomCancelInfo" => "AGB<br>Mit Ihrer Reservation akzeptieren Sie folgende Bestimmungen. Bei Annullierung einer Reservation oder einer Buchung verrechnen wir nachfolgende Annullierungsgebühren:<br>Ab 10 Tage vor Ferienbeginn 80% des Mietpreises.<br>Nichteintreffen am Ferienort sowie frühzeitiger Abreise. Nicht Anreisen 100% des Mietpreises.",
         "roomContactUs" => "Bitte kontaktieren Sie uns für Gruppenpreise."
       );
@@ -79,6 +82,7 @@
         "roomIfOnePerson" => "til 1 person", 
         "roomIfTwoPerson" => "til 2 personer", 
         "roomAdditionalTax" => "Ekstra skat på 2 CHF pr. Person tilføjes ovenstående priser.", 
+        "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fra 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (moms inkluderet)",  
         "roomCancelInfo" => "BETINGELSER<br>Med din reservation accepterer du følgende betingelser. Ved annullering af en reservation eller reservation opkræver vi følgende afbestillingsgebyrer:<br>Fra 10 dage før feriens start 80% af lejeprisen.<br>Manglende ankomst til resortet og tidlig afgang, 100% af lejeprisen.",
         "roomContactUs" => "Kontakt os venligst for gruppepris."
       );
@@ -177,7 +181,7 @@
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 20/12 - 31/03
                 </td>
-                <td>CHF 85</td>
+                <td>CHF 95</td>
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
                 </td>
@@ -192,7 +196,7 @@
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 20/12 - 31/03
                 </td> 
-                <td>CHF 65</td>
+                <td>CHF 129</td>
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
                 </td>
@@ -207,6 +211,37 @@
                 </td>
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 15/06 - 30/09
+                </td> 
+                <td>CHF 95</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfOnePerson', 'if 1 person'); ?>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomHighSeasonSummer', 'High Season Summer'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 15/06 - 30/09
+                </td> 
+                <td>CHF 129</td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomIfTwoPerson', 'if 2 persons'); ?>
+                </td>
+              </tr>
+              <tr style="height:10px;"></tr>
+              <tr>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomLowSeasonSpring', 'Low Season Spring'); ?>
+                </td>
+                <td>
+                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/04 - 14/06
                 </td> 
                 <td>CHF 85</td>
                 <td>
@@ -218,43 +253,12 @@
               </tr>
               <tr>
                 <td>
-                  <?php echo printValueGivenKey($roomText, 'roomHighSeasonSummer', 'High Season Summer'); ?>
-                </td>
-                <td>
-                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 15/06 - 30/09
-                </td> 
-                <td>CHF 65</td>
-                <td>
-                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
-                </td>
-                <td>
-                  <?php echo printValueGivenKey($roomText, 'roomIfTwoPerson', 'if 2 persons'); ?>
-                </td>
-              </tr>
-              <tr style="height:10px;"></tr>
-              <tr>
-                <td>
                   <?php echo printValueGivenKey($roomText, 'roomLowSeasonSpring', 'Low Season Spring'); ?>
                 </td>
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/04 - 14/06
                 </td> 
-                <td>CHF 75</td>
-                <td>
-                  <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
-                </td>
-                <td>
-                  <?php echo printValueGivenKey($roomText, 'roomIfOnePerson', 'if 1 person'); ?>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <?php echo printValueGivenKey($roomText, 'roomLowSeasonSpring', 'Low Season Spring'); ?>
-                </td>
-                <td>
-                  <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/04 - 14/06
-                </td> 
-                <td>CHF 55</td>
+                <td>CHF 114</td>
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
                 </td>
@@ -270,7 +274,7 @@
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/10 - 19/12
                 </td> 
-                <td>CHF 75</td>
+                <td>CHF 85</td>
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
                 </td>
@@ -285,7 +289,7 @@
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomDateFrom', 'From'); ?> 01/10 - 19/12
                 </td> 
-                <td>CHF 55</td>
+                <td>CHF 114</td>
                 <td>
                   <?php echo printValueGivenKey($roomText, 'roomBreakfastIncl', 'breakfast included'); ?>
                 </td>
@@ -297,6 +301,8 @@
             <br>
             <p>
               <?php echo printValueGivenKey($roomText, 'roomAdditionalTax', 'Additional tax of CHF 2 per person will be added to the prices above.'); ?>
+              <br><br>
+              <?php echo printValueGivenKey($roomText, 'studioPrice', 'Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (tax included)'); ?>
               <br><br>
               <?php echo printValueGivenKey($roomText, 'roomCancelInfo', 'Please contact us for group fare.'); ?>
               <br><br>
