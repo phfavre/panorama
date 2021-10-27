@@ -71,3 +71,8 @@
 {
   color: #9e9e9e;
 }
+
+a[href^="tel"]{
+  color:inherit;
+  text-decoration:none;
+}
