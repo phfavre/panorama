@@ -10,3 +10,10 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width:1000px) {
+  #seendo_section
+  {
+    margin-top: 0px;
+  }
+}

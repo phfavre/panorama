@@ -43,3 +43,10 @@
 #title_section .cd-fixed-bg.cd-bg-1 {
   background-image: url("../img/house_balcony.jpg");
 }
+
+@media screen and (max-width:1000px) {
+  #title_img_div
+  {
+    display: none;
+  }
+}

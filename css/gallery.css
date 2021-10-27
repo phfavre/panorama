@@ -37,3 +37,10 @@
 {
   display: none;
 }
+
+@media screen and (max-width:1000px) {
+  #gallery_section
+  {
+    margin-top: 0px;
+  }
+}
