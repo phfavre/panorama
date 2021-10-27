@@ -120,7 +120,7 @@
           <div class="bookinfo_title_div">
             <div class="row">
               <div class="col-xs-1 bookinfo_back"><a href="./room?roomname=<?php echo($_GET["roomname"]); ?>&lang=<?php echo $bookInfoLang; ?>"><img id="bookinfo_back_icon" src="img/left-arrow.png" width="25px"></a></div>
-              <div class="col-xs-5 bookinfo_title">
+              <div class="col-xs-9 bookinfo_title">
                 <?php echo printValueGivenKey($bookInfoText, 'bookInfoTitle', 'Book Info'); ?>
               </div>
             </div>

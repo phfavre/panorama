@@ -418,7 +418,7 @@
       <div class="roompage_title_div">
         <div class="row">
           <div class="col-xs-1 roompage_back"><a href="./ourrooms?lang=<?php echo $roomviewLang; ?>"><img id="roompage_back_icon" src="img/left-arrow.png" width="25px"></a></div>
-          <div class="col-xs-5 roompage_roomname">
+          <div class="col-xs-9 roompage_roomname">
             <?php echo printValueGivenKey2D($roomviewText, $roomName, 'roomviewRoomName', 'Not Defined'); ?>
           </div>
         </div>

@@ -4,6 +4,19 @@
   height: 40px;
   text-align: center;
 }
+
+@media screen and (max-width:1000px) {
+  .roompage_back
+  {
+    border-right: none;
+  }
+
+  .roompage_roomname
+  {
+    font-size: 25px;
+  }
+}
+
 #roompage_back_icon
 {
   margin-top: 5px;
