@@ -16,7 +16,7 @@
     "roomIfTwoPerson" => "if 2 persons", 
     "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (tax included)", 
     "roomAdditionalTax" => "Additional tax of CHF 2 per person will be added to the prices above.", 
-    "roomCancelInfo" => "CONDITIONS<br>With your reservation you accept the following conditions. When canceling a reservation or booking, we charge the following cancellation fees:<br>From 10 days before the start of the holiday, 80% of the rental price.<br>Failure to arrive at the resort and early departure, 100% of the rental price.",
+    "roomCancelInfo" => "CONDITIONS<br>With your reservation you accept the following conditions. When canceling a reservation or booking, we charge the following cancellation fees:<br>From 10 days before the start of the holiday, 80% of the rental price.<br>Failure to arrive at the resort and early departure, 100% of the rental price.<br>Pets are not allowed.",
     "roomContactUs" => "Please contact us for group fare."
   );
 
@@ -41,7 +41,7 @@
         "roomIfTwoPerson" => "si 2 personnes", 
         "roomAdditionalTax" => "Une taxe supplémentaire de CHF 2 par personne sera ajoutée au prix ci-dessus.", 
         "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Du 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (taxe inclue)", 
-        "roomCancelInfo" => "CONDITIONS<br>Avec votre réservation, vous acceptez les conditions suivantes. Lors de l'annulation d'une réservation ou d'une réservation, nous facturons les frais d'annulation suivants:<br>A partir de 10 jours avant le début du séjour, 80% du prix de la location.<br>Défaut d'arrivée à la station et départ anticipé, 100% du prix de la location.",
+        "roomCancelInfo" => "CONDITIONS<br>Avec votre réservation, vous acceptez les conditions suivantes. Lors de l'annulation d'une réservation ou d'une réservation, nous facturons les frais d'annulation suivants:<br>A partir de 10 jours avant le début du séjour, 80% du prix de la location.<br>Défaut d'arrivée à la station et départ anticipé, 100% du prix de la location.<br>Les animaux de companie ne sont pas admis.",
         "roomContactUs" => "Veuillez nous contacter concernant les prix de groupe."
       );
     }
@@ -62,7 +62,7 @@
         "roomIfTwoPerson" => "für 2 Personen", 
         "roomAdditionalTax" => "Zu den oben genannten Preisen wird eine zusätzliche Steuer von CHF 2 pro Person erhoben.",
         "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Von 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (inkl. Kurtaxe)",  
-        "roomCancelInfo" => "AGB<br>Mit Ihrer Reservation akzeptieren Sie folgende Bestimmungen. Bei Annullierung einer Reservation oder einer Buchung verrechnen wir nachfolgende Annullierungsgebühren:<br>Ab 10 Tage vor Ferienbeginn 80% des Mietpreises.<br>Nichteintreffen am Ferienort sowie frühzeitiger Abreise. Nicht Anreisen 100% des Mietpreises.",
+        "roomCancelInfo" => "AGB<br>Mit Ihrer Reservation akzeptieren Sie folgende Bestimmungen. Bei Annullierung einer Reservation oder einer Buchung verrechnen wir nachfolgende Annullierungsgebühren:<br>Ab 10 Tage vor Ferienbeginn 80% des Mietpreises.<br>Nichteintreffen am Ferienort sowie frühzeitiger Abreise. Nicht Anreisen 100% des Mietpreises.<br>Haustiere sind nicht gestattet.",
         "roomContactUs" => "Bitte kontaktieren Sie uns für Gruppenpreise."
       );
     }
@@ -83,7 +83,7 @@
         "roomIfTwoPerson" => "til 2 personer", 
         "roomAdditionalTax" => "Ekstra skat på 2 CHF pr. Person tilføjes ovenstående priser.", 
         "studioPrice" => "Studio Mutthorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fra 01.01 - 31.12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHF 110 (moms inkluderet)",  
-        "roomCancelInfo" => "BETINGELSER<br>Med din reservation accepterer du følgende betingelser. Ved annullering af en reservation eller reservation opkræver vi følgende afbestillingsgebyrer:<br>Fra 10 dage før feriens start 80% af lejeprisen.<br>Manglende ankomst til resortet og tidlig afgang, 100% af lejeprisen.",
+        "roomCancelInfo" => "BETINGELSER<br>Med din reservation accepterer du følgende betingelser. Ved annullering af en reservation eller reservation opkræver vi følgende afbestillingsgebyrer:<br>Fra 10 dage før feriens start 80% af lejeprisen.<br>Manglende ankomst til resortet og tidlig afgang, 100% af lejeprisen.<br>Kæledyr er ikke tilladt.",
         "roomContactUs" => "Kontakt os venligst for gruppepris."
       );
     }
